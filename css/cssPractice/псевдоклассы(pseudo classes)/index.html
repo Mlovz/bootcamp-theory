@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Псевдоклассы (CSS Pseudo-classes)</title>
+  </head>
+  <body>
+    <h1>Псевдоклассы (CSS Pseudo-classes)</h1>
+
+    <!-- :hover -->
+    <a href="#" class="hover-example">Hover over this link</a>
+
+    <br /><br />
+
+    <!-- :active -->
+    <button class="active-example">Click me</button>
+
+    <br /><br />
+
+    <!-- :focus -->
+    <input type="text" class="focus-example" placeholder="Focus on me" />
+
+    <br /><br />
+
+    <!-- :nth-child(n) -->
+    <ul class="nth-child-example">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <br /><br />
+
+    <!-- :nth-of-type(n) -->
+    <div class="nth-of-type-example">
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3</p>
+    </div>
+
+    <br /><br />
+
+    <!-- :first-child -->
+    <div class="first-child-example">
+      <p>This is the first paragraph</p>
+      <p>This is another paragraph</p>
+    </div>
+
+    <br /><br />
+
+    <!-- :last-child -->
+    <div class="last-child-example">
+      <p>First paragraph</p>
+      <p>This is the last paragraph</p>
+    </div>
+
+    <br /><br />
+
+    <!-- :first-of-type -->
+    <div class="first-of-type-example">
+      <h1>First heading</h1>
+      <h1>Another heading</h1>
+    </div>
+
+    <br /><br />
+
+    <!-- :last-of-type -->
+    <div class="last-of-type-example">
+      <h1>First heading</h1>
+      <h1>Last heading</h1>
+    </div>
+
+    <br /><br />
+
+    <!-- :not(selector) -->
+    <div class="not-example">
+      <p class="intro">This is an introduction paragraph</p>
+      <p>This paragraph is not an introduction</p>
+    </div>
+
+    <br /><br />
+
+    <!-- :checked -->
+    <div class="checked-example">
+      <label> <input type="checkbox" /> Check me </label>
+    </div>
+
+    <br /><br />
+
+    <!-- :disabled -->
+    <div class="disabled-example">
+      <input type="text" disabled placeholder="I am disabled" />
+    </div>
+
+    <br /><br />
+
+    <!-- :enabled -->
+    <div class="enabled-example">
+      <input type="text" placeholder="I am enabled" />
+    </div>
+
+    <br /><br />
+
+    <!-- :empty -->
+    <div class="empty-example">
+      <p></p>
+      <p>This paragraph is not empty</p>
+    </div>
+
+    <br /><br />
+
+    <!-- :target -->
+    <a href="#section" class="target-link">Go to section</a>
+    <div id="section" class="target-example" style="margin-top: 50px">
+      Targeted section
+    </div>
+  </body>
+</html>
