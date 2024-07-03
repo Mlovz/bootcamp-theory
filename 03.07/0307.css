@@ -1,0 +1,21 @@
+.head{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px;
+    gap: 20px;
+}
+.img{
+        display: flex;
+        align-items:center;
+        }
+
+.text{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
