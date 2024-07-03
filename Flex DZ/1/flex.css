@@ -1,0 +1,17 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    
+    height: 200px;
+    background-color: grey;
+}
+
+.item{
+    border: 1px solid #000;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+  
+}
