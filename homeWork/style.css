@@ -1,0 +1,98 @@
+/*шрифт Arial,Times New Roman*/
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../homeWork/fonts/ArialMT.woff2') format('woff2'),
+        url('../homeWork/fonts/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('../homeWork/fonts/TimesNewRomanPSMT.woff2') format('woff2'),
+        url('../homeWork/fonts/TimesNewRomanPSMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.box-name {font-family: 'Times New Roman Regular';}
+
+body{
+  background-color: lightblue;
+  font-family: "Roboto", sans-serif;
+}
+
+h1{
+  color: blue;
+  font-family:'Arial';
+  text-shadow: grey 5px 5px;
+}
+
+h2{
+  color: darkblue;
+  text-shadow: grey 2px 2px;
+}
+
+p{
+  color: gray;
+  font-size: 14px;
+  text-shadow: grey 2px 2px;
+}
+
+li{
+  list-style: square;
+  text-shadow: grey 2px 2px;
+  
+}
+
+a{
+  background-color: black;
+  color: white;
+}
+
+.staty__content{
+  font-family: 'Times New Roman';
+  color: darkgreen;
+}
+
+.aside__content{
+  font-family: 'Times New Roman';
+  color: darkgreen;
+}
+
+.btn{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.link{
+  color: blue;
+}
+
+.link:hover{
+  color: red;
+}
+
+table{
+  border:1px solid black;
+  width: 200px;
+  height: 50px;
+}
+
+.line1{
+  background-color: grey;
+  border: black;
+
+}
+
+.line2{
+  background-color: lightgray;
+  border: black;
+}
+
