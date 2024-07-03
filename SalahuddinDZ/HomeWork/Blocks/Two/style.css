@@ -13,8 +13,6 @@ html{
     height: 100%;
   }
   .container{
-    width: 50vw;
-    height: 50vh;
     width: max-content;
     display: flex;
     gap: 30px;
