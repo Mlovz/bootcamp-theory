@@ -1,0 +1,124 @@
+
+.header{
+ display: flex;
+ justify-content: space-between;
+ background-color: rgb(196, 255, 204);
+ height: 400px;
+ margin: 20px;
+
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: blue;
+}
+
+/*2 задание*/
+.header_html2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 3, 26);
+    height: 400px;
+    margin: 20px;
+}
+
+.item1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(9, 255, 0);
+}
+
+/*3 задание*/
+.header_html3{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(15, 3, 26);
+    height: 400px;
+    margin: 20px;
+}
+
+.item3{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(9, 255, 0);
+}
+
+/*задание 4*/
+
+
+.header_html4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(15, 3, 26);
+    height: 400px;
+    margin: 20px;
+}
+
+.item4{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000;
+    background-color: rgb(0, 174, 255);
+}
+
+/*задание 5*/
+
+.header_html5{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+    background-color: rgb(169, 147, 189);
+    height: 400px;
+    margin: 20px;
+}
+
+.item5{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(9, 255, 0);
+}
+
+/*задание 6*/
+
+.header_html6{
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    background-color: rgb(169, 147, 189);
+    height: 450px;
+    margin: 20px;
+}
+
+.item6{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(255, 0, 64);
+}
+
+/*задание7*/
+.header_html7{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+    background-color: rgb(169, 147, 189);
+    height: 450px;
+    margin: 20px;
+}
+
+.item7{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(255, 0, 64);
+}
