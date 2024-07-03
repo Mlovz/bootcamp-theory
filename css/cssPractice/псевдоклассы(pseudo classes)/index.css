@@ -1,0 +1,74 @@
+/* :hover */
+.hover-example:hover {
+  color: red;
+}
+
+/* :active */
+.active-example:active {
+  background-color: blue;
+}
+
+/* :focus */
+.focus-example:focus {
+  border: 2px solid green;
+}
+
+/* :nth-child(n) */
+.nth-child-example li:nth-child(2) {
+  color: orange;
+}
+
+/* :nth-of-type(n) */
+.nth-of-type-example p:nth-of-type(3) {
+  font-size: 20px;
+}
+
+/* :first-child */
+.first-child-example p:first-child {
+  font-weight: bold;
+}
+
+/* :last-child */
+.last-child-example p:last-child {
+  color: blue;
+}
+
+/* :first-of-type */
+.first-of-type-example h1:first-of-type {
+  color: green;
+}
+
+/* :last-of-type */
+.last-of-type-example h1:last-of-type {
+  color: red;
+}
+
+/* :not(selector) */
+.not-example p:not(.intro) {
+  color: gray;
+}
+
+/* :checked */
+.checked-example input:checked {
+  background-color: yellow;
+}
+
+/* :disabled */
+.disabled-example input:disabled {
+  background-color: lightgray;
+}
+
+/* :enabled */
+.enabled-example input:enabled {
+  border: 1px solid blue;
+}
+
+/* :empty */
+.empty-example p:empty {
+  display: none;
+}
+
+/* :target */
+.target-example:target {
+  background-color: lightblue;
+}
