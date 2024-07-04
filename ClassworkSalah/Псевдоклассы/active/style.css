@@ -1,0 +1,10 @@
+.bg:active {
+    background-color: blue;
+}
+.wght:active {
+    width: 100px;
+    height: 100px;
+}
+.color:active {
+    color: blue; 
+}
