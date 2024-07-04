@@ -1,0 +1,19 @@
+button,
+input {
+  outline: none;
+}
+
+.one:disabled {
+  background: #a53434;
+}
+
+.two:disabled {
+  color: green;
+}
+
+.three:disabled {
+  border-style: dotted;
+}
+
+
+

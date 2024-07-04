@@ -1,0 +1,46 @@
+button,
+input {
+  outline: none;
+}
+
+.knopka1:hover {
+  background: green;
+
+}
+
+.knopka2:hover {
+  transform: scale(1.2);
+}
+
+.knopka3:hover {
+  color: turquoise;
+}
+
+.knopka4:hover {
+  opacity: 0.5;
+}
+
+.knopka5:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+.knopka6:hover {
+  border-color: red;
+}
+
+.knopka7:hover {
+  transform: rotate(45deg);
+}
+
+.knopka8:hover {
+  border-radius: 50%;
+}
+
+.knopka9:hover {
+  transform: translateX(50px);
+}
+
+.knopka10:hover::before {
+  content: attr(hover-text);
+}

@@ -1,0 +1,11 @@
+
+.one:checked+label {
+  background: #de0000;
+}
+
+.two:checked+label {
+  font-style: italic;
+}
+
+.three:checked+label {
+  color: red;
