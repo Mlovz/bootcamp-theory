@@ -1,0 +1,27 @@
+.user-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 300px;
+  background: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.user-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.user-info-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
