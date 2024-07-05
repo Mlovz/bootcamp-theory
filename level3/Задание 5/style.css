@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+}
+
+button {
+    transition: 0.5s;
+
+}
+button:hover {
+    background-color: blue;
+    font-size: 20px;
+}
