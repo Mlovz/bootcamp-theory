@@ -1,0 +1,17 @@
+input{
+  outline: 0px;
+  border: 2px solid #000;
+  background: #fff;
+  margin-top: 10px;
+}
+.knopka1:focus{
+border: 2px solid red;
+}
+
+.knopka2:focus{
+  background: green;
+}
+
+.knopka3:focus{
+  color: orange;
+}
