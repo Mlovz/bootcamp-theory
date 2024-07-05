@@ -1,0 +1,24 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.color_green {
+    color: rgb(44, 204, 44);
+}
+.background_Brown {
+    background: rgb(114, 29, 29);
+}
+button {
+    padding: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}

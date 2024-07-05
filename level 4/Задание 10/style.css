@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+form::before {
+    content: "TEST";
+    color: brown;
+    font-size: large;
+    text-align: center;
+}
+button {
+    padding: 10px;
+}
+form::after {
+    content: "TEST2";
+    color: #0dac77;
+    background-color: #000;
+    text-align: center;
+}
+button:hover {
+    transition: 0.5s;
+    font-size: 20px;
+    background-color: rgba(3, 42, 89, 0.693);
+    border-radius: 20px;
+}
+a:active {
+    color: brown;
+}
+input {
+    padding: 5px;
+}
+input::placeholder {
+    color: rgb(24, 100, 100);
+}
+
+input:focus {
+    background-color: bisque;
+}
