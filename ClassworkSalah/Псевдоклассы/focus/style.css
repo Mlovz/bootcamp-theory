@@ -1,0 +1,12 @@
+button, input{
+    outline: none   ;
+}
+.one:focus {
+    border-color: rgb(223, 95, 21);
+}
+.two:focus {
+    background: #a53434;
+}
+.three:focus {
+    color: rgb(23, 197, 64); 
+}

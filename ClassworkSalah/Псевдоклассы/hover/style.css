@@ -1,0 +1,35 @@
+button, input{
+    outline: none   ;
+}
+.bg:hover {
+    background: green;
+
+}
+.wght:hover {
+    transform: scale(1.2);
+}
+.color:hover {
+    color: turquoise;
+}
+.w:hover {
+    opacity: 0.5;
+}
+.e:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+.r:hover {
+    border-color: red;
+}
+.t:hover {
+    transform: rotate(45deg);
+}
+.y:hover {
+    border-radius: 50%;
+}
+.u:hover {
+    transform: translateX(50px);
+}
+.i:hover::before {
+    content: attr(hover-text);
+}
