@@ -1,0 +1,19 @@
+
+.p1{
+  background-color: red;
+}
+
+.p2{
+  background-color: green;
+}
+
+.p3{
+  background-color: blue;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 100px;
+}
