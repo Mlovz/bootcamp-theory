@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+.container {
+    max-width: 1090px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    border-bottom: #DBDBDB solid 1px;
+}
+.header_info {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        padding: 4px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #5968F1;
+        height: min-content;
+        a {
+            color: white;
+        }
+    }
+}
+.header_item {
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5968F1;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main_item {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    .main_gap {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+    .users_cont{
+        text-align: start;
+    }
+    .button_cont {
+        display: flex;
+        justify-content: center;
+    }
+    .button_end {
+        width: max-content;
+
+        border: #5968F1 solid 1px;
+        padding: 4px 29px;
+        border-radius: 5px;
+        background: #fff;
+        a {
+            color: #5968F1;
+        }
+    }
+}
+
+
+.profile_cart_cont {    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px 10px;
+}
+
+.profile-card {
+    width: max-content;
+    background: #F4F4F4;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 10px;
+    border: #DBDBDB solid 1px;
+    .card_data {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3px;
+        
+            h2 {
+                font-size: 14px;
+            }
+            p {
+                font-size: 12px;
+            }
+        
+        }
+    }
+    .status-buttons {
+        display: flex;
+        justify-content: space-between;
+        .status-searching {
+            background: #5CA5FA;
+        }
+        .status-online {
+            background: #04DD00;
+        }
+        button {
+            border-radius: 50px;
+            padding: 0px 6px;
+            border: none;
+            color: #fff;
+        }
+    }
+    
+}
