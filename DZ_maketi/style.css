@@ -1,0 +1,177 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.container{
+    margin-inline: auto;
+    width: min(100%,1040px);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu{
+display: flex;
+align-items: center;
+gap: 47px;
+
+}
+
+
+.header_log{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#5968F1;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.header_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#5968F1;
+}
+
+.bts{
+    width: 75px;
+    height: 27px;
+    border-radius: 5px;
+    background-color:#5968F1;
+}
+
+.main{
+    margin-top: 55px;
+}
+
+.heading{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 17px;
+}
+
+
+.section_top{
+    display: flex;
+    gap: 10px;
+}
+.section_user{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid #DBDBDB;
+    gap: 21px;
+    padding: 10px 9px;
+    background:#F4F4F4;
+    border-radius: 10px;
+
+}
+.section_1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.section_1__1 h2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.1px;
+    text-align: left;
+}
+.img_stn_1{
+    width: 60px;
+    height: 60px;
+
+}
+
+.section_1__1{
+    display: flex;
+    flex-direction: column;
+    /* width: 109px;
+    gap: 10px; */
+}
+
+
+
+.section-title{
+font-size: 14px;
+font-weight: 400;
+line-height: 19.1px;
+text-align: left;
+
+}
+
+.section_1__1 span{
+display:inline-block;
+margin-left: auto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.37px;
+
+}
+
+.section_1-text{
+font-size: 12px;
+font-weight: 400;
+line-height: 16.37px;
+
+}
+
+.section_2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn{
+width: 66px;
+height: 16px;
+text-align: center;
+font-family: Nunito;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.37px;
+color: white;
+background-color: #5CA5FA;
+border-radius: 10px;
+border: none;
+}
+
+.btn1{
+width: 66px;
+height: 16px;
+border-radius: 10px;
+background-color:  #04DD00;
+text-align: center;
+color: white;
+}
+
+.btn2{
+    margin: 0 auto;
+    display: block;
+    margin-top: 31px;
+    width: 122px;
+    height: 27px;
+    text-align: center;
+    color: #5968F1;
+    border: 1px solid  #5968F1;
+    border-radius: 5px;
+}
