@@ -1,0 +1,92 @@
+/* 2 задание h1 {
+  color: blue;
+  font-family: Arial;
+}
+h2 {
+  color: rgb(13, 13, 90);
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+}
+ul {
+  list-style-type: square;
+} */
+
+/* 3 задание */
+
+/* body {
+  background-color: rgb(0, 204, 255);
+} */
+
+/* 4 задание */
+
+/* p {
+  font-family: Times New Roman;
+  color: rgb(5, 51, 5);
+} */
+
+/* 5 задание */
+
+/* span {
+  text-shadow: red 0 -2px;
+}
+
+div {
+  background-color: blue;
+  width: 60px;
+  height: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} */
+
+/* button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+} */
+
+/* a {
+  color: blue;
+}
+a:hover {
+  color: red;
+} */
+
+/* 9 задание */
+/* table {
+  width: 650px;
+  border-collapse: collapse;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+caption {
+  border: 1px solid #000;
+  background-color: gray;
+}
+th {
+  border: 1px solid #000;
+  background-color: rgb(245, 237, 237);
+}
+td {
+  border: 1px solid #000;
+  background-color: rgb(245, 237, 237);
+} */
+
+/* 10 задание */
+
+/* nav {
+  width: 400px;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-left: 500px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+} */
