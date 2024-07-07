@@ -1,0 +1,67 @@
+button {
+	background-color: blueviolet;
+
+	/* регистр текста: */
+	text-transform: uppercase;
+
+	/* размер текста: */
+	font-size: 14px;
+}
+/* изменение параметров при наведении -> hover: */
+button:hover {
+	background-color: palevioletred;
+
+	/* изменение размера кнопки -> padding: */
+	padding: 5px;
+}
+/* изменение параметров кнопки при нажатии -> active: */
+button:active {
+	background-color: aquamarine;
+	padding: 10px;
+}
+a {
+	color: aqua;
+}
+a:active {
+	color: bisque;
+}
+/****************************************************************************************/
+.input1 {
+	border: 3px ridge green;
+	/* для того, чтобы	обводка не отображалась -> outline none */
+	outline: none;
+}
+/* изменение параметров поля ввода (<input class="input1" type="text">) при нажатии, слово "текст" повторять в стилях не нужно */
+.input1:focus {
+	border-color: blue;
+	background-color: plum;
+	color: brown;
+}
+/****************************************************************************************/
+/* чекд это когда я сделала выбор в чекбоксе (типа голосования) */
+.input2:checked {
+	/* фон, которого не видно */
+	background-color: yellowgreen;
+	width: 15px;
+	height: 15px;
+}
+/* как при выборе продукта в чекбоксе изменить цвет его наименования */
+.input2[type='checkbox']:checked + span {
+	color: brown;
+}
+/* изменение стиля текста при нажатии на кнопку радио */
+.input3[type='radio']:checked + span {
+	text-decoration-line: underline;
+}
+/****************************************************************************************/
+/* сделать поле ввода недоступным и изменить вследствие этого цвет его фона */
+.input4[disabled] {
+	background-color: orangered;
+	/* цвет текста почему-то не меняется */
+	color: white;
+}
+.input4[type='text']:disabled {
+	/* цвет текста всё равно не меняется */
+	color: white;
+	border: 2px double blue;
+}
