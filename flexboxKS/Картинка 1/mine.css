@@ -1,0 +1,11 @@
+.container {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
