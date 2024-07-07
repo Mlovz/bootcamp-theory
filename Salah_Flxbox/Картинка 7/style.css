@@ -1,0 +1,13 @@
+.container {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    height: 200px;
+}
+.item {
+    background-color: red;
+    width: 100px; 
+    height: 100px;
+}
