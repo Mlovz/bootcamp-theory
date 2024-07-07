@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Заголовок страницы</h1>
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li><a href="#" class="nav-link">Главная</a></li>
+          <li><a href="#" class="nav-link">О нас</a></li>
+          <li><a href="#" class="nav-link">Контакты</a></li>
+          <li><a href="#" class="nav-link hover-link">Наведи на меня</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="sidebar">
+      <h2 class="sidebar-title">Боковая панель</h2>
+      <p class="sidebar-content">Дополнительная информация.</p>
+    </aside>
+    <main>
+      <section class="main-section">
+        <article class="article">
+          <h2 class="article-title">Статья 1</h2>
+          <p class="article-content">Содержание статьи 1.</p>
+        </article>
+        <article class="article">
+          <h2 class="article-title">Статья 2</h2>
+          <p class="article-content">Содержание статьи 2.</p>
+        </article>
+      </section>
+
+      <section class="button-section">
+        <button class="button">Нажми меня</button>
+      </section>
+
+      <section class="form-section">
+        <form>
+          <label for="name">Имя:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+          <label for="password">Пароль:</label><br />
+          <input type="password" id="password" name="password" /><br /><br />
+          <label>Пол:</label><br />
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Мужской</label><br />
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Женский</label><br /><br />
+          <label>Интересы:</label><br />
+          <input type="checkbox" id="sport" name="interest" value="sport" />
+          <label for="sport">Спорт</label><br />
+          <input type="checkbox" id="music" name="interest" value="music" />
+          <label for="music">Музыка</label><br />
+          <input type="checkbox" id="travel" name="interest" value="travel" />
+          <label for="travel">Путешествия</label><br /><br />
+          <input type="submit" value="Отправить" />
+        </form>
+      </section>
+
+      <section class="table-section">
+        <table class="table">
+          <tr>
+            <th class="table-header">Заголовок 1</th>
+            <th class="table-header">Заголовок 2</th>
+          </tr>
+          <tr>
+            <td class="table-cell">Ячейка 1</td>
+            <td class="table-cell">Ячейка 2</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Авторские права © 2023</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.container {
+  height: 200px;
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+
+}
+.item {
+  width: 125px;
+  height: 125px;
+  background: green;
+  
+}

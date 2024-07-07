@@ -1,0 +1,15 @@
+.container {
+  height: 200px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+  
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background: green;
+  margin-left: 10px;
+}
