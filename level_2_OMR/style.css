@@ -1,0 +1,78 @@
+/* ### Задание 2: */
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+}
+h2 {
+	color: darkblue;
+}
+p {
+	font-size: 14px;
+	color: gray;
+}
+li {
+	list-style: square;
+}
+/* ### Задание 3: */
+body {
+	background-color: lightblue;
+}
+/* ### Задание 4: */
+/* цвет всего текста меняется только так? 
+(это из-за того, что почти всем параметрам ранее задавались цвета?) */
+p,
+li,
+h1,
+h2,
+footer,
+a {
+	font-family: 'Times New Roman', Times, serif;
+	color: darkgreen;
+}
+/* ### Задание 5: */
+/* добавить тень к блочным элементам */
+h1,
+h2,
+p,
+li,
+footer {
+	text-shadow: 1px 1px gray;
+}
+/* ### Задание 6: */
+button {
+	background: green;
+	color: white;
+	border-radius: 5px;
+}
+/* ### Задание 7: */
+.ссылочкэ {
+	color: blue;
+	text-decoration: none;
+}
+.ссылочкэ:hover {
+	color: red;
+	text-decoration: underline;
+}
+/* ### Задание 9: */
+table {
+	border: 1px solid black;
+	width: 220px;
+	height: 100px;
+	text-align: center;
+}
+.line_first {
+	border: black;
+	background-color: gray;
+}
+.line_second {
+	border: black;
+	background-color: lightgray;
+}
+.menu {
+	color: white;
+	background-color: black;
+	margin: 2px;
+}
+nav {
+	font-size: 20px;
+}
