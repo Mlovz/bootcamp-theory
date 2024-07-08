@@ -17,7 +17,6 @@ button, input{
     background: #f0f0f0;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -56,4 +55,8 @@ button, input{
 }
 .outline:hover {
     background: #0084ff;
+    color: #fff; 
+}
+.btn-max {
+    width: 100%;
 }
