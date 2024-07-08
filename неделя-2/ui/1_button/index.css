@@ -1,0 +1,66 @@
+/* отключить все встроенные стили */
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+ul,
+ol {
+	list-style: none;
+}
+button,
+input {
+	outline: none;
+	border: none;
+}
+.button-container {
+	background-color: #f0f0f0;
+	height: 100vh;
+	display: flex;
+	/* направление flex*/
+	/* flex-direction: column; */
+	/* отступ между элементами */
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.btn {
+	color: white;
+	font-family: consolas;
+	background: #000;
+	padding: 10px 25px;
+	text-align: center;
+	font-size: 14px;
+	/* жирность текста */
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	/* прозрачная рамка */
+	border: transparent solid 1px;
+	transition: 0.2s;
+}
+.btn:hover {
+	background: #313131;
+}
+.btn:active {
+	/* уменьшение кнопки до 90% */
+	transform: scale(90%);
+}
+.primary {
+	background-color: #0084ff;
+}
+.primary:hover {
+	background-color: #005eb6;
+}
+.outline {
+	background-color: transparent;
+	border: #0084ff solid 1px;
+	color: #005eb6;
+}
+.outline:hover {
+	background-color: #0084ff;
+  color: #fff;
+}
+.anotherone {
+  width: 100%;
+}
