@@ -1,0 +1,7 @@
+input, button{outline: none;}
+.vvod1{border: 1px solid;}
+.vvod1:focus{border: 1px solid red;}
+
+.vvod2:focus{background-color: aqua;}
+
+.vvod3:focus::-webkit-input-placeholder{color: red;}
