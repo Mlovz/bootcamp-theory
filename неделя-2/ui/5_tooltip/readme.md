@@ -1,3 +1,7 @@
+## Result
+
+![alt text](<Screenshot from 2024-07-08 13-53-18.png>)
+
 ## HTML
 
 1. Создайте `<div>` с классом `tooltip-container`.
