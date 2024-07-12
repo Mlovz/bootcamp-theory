@@ -1,0 +1,18 @@
+:root{
+    --blue_400: #2763fc;
+    --blue_500: #0048ff;
+    --white: #ffffff;
+    --black: #313131; 
+
+    /* sizes */
+    --fz12: 12px;
+    --fz14: 14px;
+    --fz16: 16px;
+    --fz20: 20px;
+}
+
+body{
+    background: var(--blue_500);
+    color: var(--blue_500);
+    color: var(--black);
+}
