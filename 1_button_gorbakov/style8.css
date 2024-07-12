@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+button, input{
+    outline: none;
+    border: none
+}
+
+.button-container{
+background-color: #f0f0f0;
+height: 100vh;
+display: flex;
+margin: 20px;
+justify-content: space-between;
+align-items: center
+}
+.btn{ 
+    background-color: #000000;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size:14px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: bold;
+   font-family: "Consolas";
+   transition:background-color 0.3s;
+   
+
+}
+.btn:hover {
+    background-color: #313131;
+    transform: scale(0.9) 
+}
+.primary {
+    background: #0084ff;
+}
+.outline {
+    background: transparent;
+    border: #0084ff solid 1px;
+    color: #0084ff;
+}
+.btn-max {
+   width: 100%;
+}
