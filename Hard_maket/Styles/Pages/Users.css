@@ -1,0 +1,24 @@
+.tag {
+  cursor: pointer;
+}
+.rainbow_tag {
+  display: flex;
+  gap: 5px;
+}
+.profile-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+.Users_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag:hover {
+  background: #7f7b7be4;
+}
+.Profile_cont {
+  display: flex;
+  gap: 20px;
+}

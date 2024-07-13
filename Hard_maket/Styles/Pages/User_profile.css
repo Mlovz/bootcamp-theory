@@ -1,0 +1,9 @@
+.User_profile_main {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  gap: 30px;
+  .profile-card {
+    height: max-content;
+  }
+}
