@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,
+ol {
+	list-style: none;
+}
+button,
+input {
+	outline: none;
+	border: none;
+}
+.checkbox-container {
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	gap: 20px;
+}
+.custom-checkbox {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	font-size: 18px;
+	/* запрет выделения текста: */
+	user-select: none;
+	position: relative;
+	gap: 10px;
+}
+.custom-checkbox input {
+	cursor: pointer;
+	position: relative;
+	width: 26px;
+	height: 26px;
+	/* внешний вид: тут появляется невидимость кнопок голосования, но они рабочие (Скрытие стандартного чекбокса), если оставить, то появляются углы вокруг контейнера для кнопки (контейнера для голосования)*/
+	appearance: none;
+}
+.custom-checkbox input::before {
+	/* если убрать контент, то квадратик вокруг кнопки (контейнер для кнопки) исчезает */
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	background-color: #ccc;
+	border-radius: 5px;
+	/* обрезать контент, выходящий за пределы блока, но тут не понятно, для чего он нужен */
+	overflow: hidden;
+}
+.custom-checkbox input::after {
+	/* если убрать контент, то при голосовании содержимое контейнера (отметка) исчезает, видно только фон кнопки при голосе */
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/* если указать 100% и 100%, то отметка при выборе улетит направо и вниз, если оба раза -100%, то в левый верхний угол, короче, чем больше минус, тем левее и выше. Ось Х работает по правилам математики, Y - наоборот*/
+	transform: translate(-50%, -50%);
+	width: 0px;
+	height: 0px;
+	background-color: rgb(0, 102, 255);
+	border-radius: 5px;
+	transition: all 0.2s;
+}
+.custom-checkbox input:checked::after {
+	width: 17px;
+	height: 17px;
+	/* linear означает, что отметка при голосовании появляется справа внизу и идёт в ценртр */
+	animation: identifier 0.3s linear;
+}
+/* тень блока (то есть вокруг кнопочки голосования) */
+.custom-checkbox input:checked::before {
+	box-shadow: 0 0 10px rgba(0, 102, 255, 0.4);
+}
+@keyframes identifier {
+	/* получается, что кнопка при голосовании сначала появляется точкой, а потом увеличивает свои размеры */
+	0% {
+		transform: scale(0.7);
+	}
+	50% {
+		transform: scale(1);
+	}
+	80% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1.5);
+	}
+}
