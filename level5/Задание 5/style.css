@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    position: sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+    background-color: #e9ecef;
+    padding: 10px;
+    position: sticky;
+    position: sticky;
+    top: 50px;
+    width: 200px;
+}
+.content {
+    margin-left: 220px;
+    padding: 10px;
+}
+.section {
+    margin-bottom: 20px;
+}
