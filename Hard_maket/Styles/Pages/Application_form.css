@@ -2,3 +2,11 @@ textarea {
   outline: none;
   border: none;
 }
+.application_form {
+  width: 400px;
+  background: #fff;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

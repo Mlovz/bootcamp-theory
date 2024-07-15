@@ -1,16 +1,20 @@
 .tag {
   cursor: pointer;
 }
-.rainbow_tag {
+.tags {
   display: flex;
   gap: 5px;
 }
-.profile-container {
+.users-container {
+  height: 100vh;
+  background: #f0f0f0;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: flex-start;
   margin-top: 50px;
 }
-.Users_cont {
+.users_list {
   display: flex;
   flex-direction: column;
   gap: 20px;

@@ -13,6 +13,7 @@
 @import url(./Pages/Application_form.css);
 @import url(./Pages/User_profile.css);
 @import url(./Pages/Users.css);
+@import url(./Pages/header.css);
 
 * {
   margin: 0;
@@ -32,10 +33,4 @@ button,
 input {
   outline: none;
   border: none;
-}
-body {
-  background: #f0f0f0;
-}
-a:hover {
-  color: blue;
 }
