@@ -9,15 +9,22 @@ ul, ol{
     list-style-type: none;
 }
 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 
 .cv{
     display: flex;
     gap: 24px;
     max-width: 600px;
-    /* border: 1px solid #000; */
-    /* margin: 0 auto; */
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    padding: 48px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    
 }
 
 .cv-left{
@@ -60,9 +67,14 @@ ul, ol{
     font-size: 16px;
     font-weight: 500;
 }
+.cv-card__desc{
+    font-size: 12px;
+    font-weight: 400;
+}
 .cv-card__time{
     color: #ccc;
 }
+
 
 .cv-right{
     display: flex;
@@ -78,4 +90,5 @@ ul, ol{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    font-size: 12px;
 }
