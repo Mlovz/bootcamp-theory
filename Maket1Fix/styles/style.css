@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(./components/button.css);
+@import url(./components/input.css);
+@import url(./components/link.css);
+/* pages */
+@import url(./pages/main.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
