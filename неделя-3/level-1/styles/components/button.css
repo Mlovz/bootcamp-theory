@@ -1,0 +1,19 @@
+
+.btn{
+    padding: 20px;
+    background: red;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-secondary{
+    background: #000;
+}
+
+.btn-primary{
+    background: #007bff;
+}
+
+.btn-block{
+    width: 100%;
+}
