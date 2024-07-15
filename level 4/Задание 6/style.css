@@ -1,0 +1,33 @@
+body {
+    background: #000;
+}
+
+.cont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cont_item {
+        background: grey;
+        width: 60px;
+        height: 30px;
+        border-radius: 15px;
+        position: absolute;
+        .one {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #ffffff;
+            position: absolute;
+            z-index: 22323232;
+            transition: 1s;
+
+        }
+
+    }
+}
+
+
+.one:active{
+    transform: translateX(30px);
+}

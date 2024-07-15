@@ -1,0 +1,29 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background: #0fcecb;
+    border-radius: 10px;
+    transition: all 0.3s;
+
+}
+
+.button_one:hover {
+    background-color: brown;
+}
+.button_two:hover {
+    transform: scale(1.5);
+}
+.button_three:hover {
+    opacity: 0.5;
+}
