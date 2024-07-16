@@ -1,0 +1,34 @@
+.login {
+  height: 100vh;
+  background-image: url(../../assets/BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2148c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 71px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  width: 300px;
+}
+.login-form__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.img_wrap {
+  position: absolute;
+  left: 12px;
+  top: 13px;
+}
+.login-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 11px;
+}
