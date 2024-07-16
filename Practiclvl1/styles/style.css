@@ -1,0 +1,24 @@
+@import url("./pages/regist.css");
+
+@import url("./components/flex.css");
+@import url("./components/button.css");
+@import url("./components/input.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
