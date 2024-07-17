@@ -1,10 +1,29 @@
-/* 
-div{
-    font-size: 10px;
-    font-family: serif;
-    font-weight: normal;
-    line-height: 10px;
-    text-decoration: none;
-    white-space: ;
-    word-break: ;
-} */
+
+
+.text-gray{
+    color: gray;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.a-center{
+    align-items: center;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
