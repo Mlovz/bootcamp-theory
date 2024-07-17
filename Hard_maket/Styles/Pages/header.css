@@ -1,0 +1,25 @@
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #89868659;
+  background: #fff;
+  nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
+.subtitle {
+  font-size: 25px;
+}
+body {
+  background: #f0f0f0;
+}
+a:hover {
+  color: blue;
+}

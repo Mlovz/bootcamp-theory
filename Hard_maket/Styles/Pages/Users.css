@@ -1,0 +1,28 @@
+.tag {
+  cursor: pointer;
+}
+.tags {
+  display: flex;
+  gap: 5px;
+}
+.users-container {
+  height: 100vh;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+.users_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag:hover {
+  background: #7f7b7be4;
+}
+.Profile_cont {
+  display: flex;
+  gap: 20px;
+}
