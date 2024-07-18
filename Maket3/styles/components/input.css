@@ -1,0 +1,18 @@
+.input-wrap {
+  position: relative;
+  input {
+    border-radius: 6px;
+    padding: 6px 12px;
+    width: 320px;
+    height: 32px;
+    box-shadow: 0 0 0 1px rgba(104, 113, 130, 0.16),
+      0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    padding-left: 36px;
+  }
+}
+.input-wrap__image {
+  position: absolute;
+  left: 12px;
+  top: 8px;
+}

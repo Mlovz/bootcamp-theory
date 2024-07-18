@@ -1,0 +1,142 @@
+th,
+td {
+  padding: 6px 0px;
+  text-align: left;
+}
+th {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 145%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #464f60;
+}
+.col-roulette {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.col-roulette-btn {
+  display: flex;
+  flex-direction: column;
+  button {
+    cursor: pointer;
+    color: #bcc2ce;
+    background: transparent;
+  }
+  button:hover {
+    color: #171c26;
+  }
+}
+tr:hover {
+  background: #f9fafc;
+}
+tbody {
+  .table-checkbox,
+  .col__number {
+    display: flex;
+    transform: translateY(-9px);
+  }
+}
+thead {
+  .table-checkbox {
+    transform: translateY(2px);
+  }
+}
+.table-checkbox,
+.col__number {
+  padding: 0px 10px;
+}
+.col-name {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  span:nth-child(1) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #171c26;
+  }
+  span:nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #dbdee0;
+  }
+}
+.col__desc {
+  display: inline-block;
+  max-width: 238px;
+  width: 100%;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #464f60;
+}
+.col-status {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  border-radius: 10px;
+  width: 47px;
+  height: 20px;
+  padding: 1px 10px;
+}
+.col-status__paid {
+  color: #14804a;
+  background: #e1fcef;
+}
+.col-status__inactive {
+  background: #e9edf5;
+  color: #5a6376;
+}
+.col-status__open {
+  color: #4f5aed;
+  background: #f0f1fa;
+}
+.col-status__due {
+  background: #faf0f3;
+  color: #d12953;
+}
+.col-deposit,
+.col-rate,
+.col-balance {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.col__price,
+.col-rate__cad,
+.col__negative,
+.col__positive {
+  font-family: var(--font-family);
+  font-weight: 400;
+  text-align: right;
+}
+.col__price,
+.col__negative,
+.col__positive {
+  font-size: 14px;
+  line-height: 143%;
+}
+.col__price {
+  color: #464f60;
+}
+.col-rate__cad {
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #dbdee0;
+}
+.col__negative {
+  color: #d12953;
+}
+.col__positive {
+  color: #14804a;
+}
