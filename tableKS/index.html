@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="sort_search-block">
+          <div class="sort">
+            <button class="btn-sort">
+              <img src="./images/voronka.png" alt="фильтер" />
+            </button>
+          </div>
+          <div class="search-block">
+            <img class="search-icon" src="./images/Search.png" alt="поиск" />
+            <input class="search-input" placeholder="Search..." type="search" />
+          </div>
+        </div>
+        <button class="btn-header">+ Add customer</button>
+      </div>
+      <div>
+        <table>
+          <thead>
+            <tr class="th-container">
+              <th class="column column-arrow">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column column-arrow number-column">
+                #
+                <div>
+                  <span>▲</span>
+                  <span>▼</span>
+                </div>
+              </th>
+              <th class="column column-arrow name-column">
+                NAME
+                <div>
+                  <span>▲</span>
+                  <span>▼</span>
+                </div>
+              </th>
+              <th class="column description-column">DESCRIPTION</th>
+              <th class="column column-arrow status-column">
+                STATUS
+                <div>
+                  <span>▲</span>
+                  <span>▼</span>
+                </div>
+              </th>
+              <th class="column last-columns">RATE</th>
+              <th class="column last-columns">BALANCE</th>
+              <th class="column last-columns">DEPOSIT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">1</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Ann Culhane</p>
+                  <span>5684236526</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn">Open</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price red ">-$270.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">2</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Ahmad Rosser</p>
+                  <span>5684236527</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn paid">Paid</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price green">$270.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">3</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Zain Calzoni</p>
+                  <span>5684236528</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn">Open</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price red">-$20.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">4</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Leo Stanton</p>
+                  <span>5684236529</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn inactive">Inactive</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price green">$600.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">5</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Kaiya Vetrovs</p>
+                  <span>5684236530  </span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn">Open</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price red">-$350.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">6</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Ryan Westervelt</p>
+                  <span>5684236531</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn paid">Paid</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price red">-$270.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">7</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Corey Stanton</p>
+                  <span>5684236532</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn due">Due</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price green">$30.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">8</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Adison Aminoff</p>
+                  <span>5684236533</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn">Open</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price red">-$270.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+            <tr class="th-container">
+              <th class="column">
+                <input type="checkbox" class="checkbox" />
+              </th>
+              <th class="column number-column">9</th>
+              <th class="column name-column">
+                <div class="name-column-title-block">
+                  <p>Alfredo Aminoff</p>
+                  <span>5684236534</span>
+                </div>
+              </th>
+              <th class="column description-column">
+                <p class="description-column-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...
+                </p>
+              </th>
+              <th class="column status-column">
+                <button class="status-column-btn inactive">Inactive</button>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$70.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price green">$460.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+              <th class="column last-columns">
+                <span class="last-columns-price">$500.00</span>
+                <br />
+                <span class="last-columns-span">CAD</span>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
