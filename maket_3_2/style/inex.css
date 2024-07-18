@@ -1,0 +1,86 @@
+@import url(./components/flex.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cv{
+    gap: 24px;
+    max-width: 600px;
+    width: 100%;
+    padding: 48px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+
+}
+
+
+.cv-left-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(16, 18, 20);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.cv-username{
+font-weight: 700;
+font-size: 24px;
+}
+
+
+.cv-card__uppercase{
+    text-transform: uppercase;
+}
+.cv-card__title{
+    font-weight: 700;
+    font-size: 11px;
+    color: #101214;
+}
+.cv-card__subtitle{
+    font-size: 11px;
+    font-weight: 500;
+    color: #101214;
+}
+.cv-card__desc{
+    font-weight: 400;
+    font-size: 11px;
+    color: #101214;
+}
+.cv-card__time{
+    color: #ccc;
+    font-size: 9px;
+}
+
+img{
+        width: 72px;
+        height: 72px;
+    }
+
+
+
+.cv-right-list__title{
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    line-height: 164%;
+    color: #73808d;
+    font-weight: 700;
+}

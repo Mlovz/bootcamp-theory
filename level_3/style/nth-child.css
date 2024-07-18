@@ -1,0 +1,46 @@
+
+th:nth-child(7),th:nth-child(6),th:nth-child(5),
+th:nth-child(4),th:nth-child(3),th:nth-child(2),
+th:nth-child(1){
+    padding-right: 20px;
+}
+th:nth-child(1){
+margin-left: 10px;
+}
+th:nth-child(8){
+    padding-right: 50px;
+}
+th:nth-child(8),th:nth-child(7),th:nth-child(6){
+    text-align: right;
+}
+
+th:nth-child(1),th:nth-child(2),th:nth-child(3),
+th:nth-child(4),th:nth-child(5){
+    text-align: left;
+}
+
+td:nth-child(7),td:nth-child(6),td:nth-child(5),
+td:nth-child(4),td:nth-child(3),td:nth-child(2),
+td:nth-child(1){
+    padding-right: 20px;
+}
+
+td:nth-child(8){
+    padding-right: 50px;
+}
+td:nth-child(8),td:nth-child(7),td:nth-child(6){
+    text-align: right;
+}
+
+td:nth-child(2){
+padding-bottom: 15px;
+}
+
+td:nth-child(1){
+    padding-bottom: 12px;
+
+}
+td:nth-child(4){
+padding-top: 12px;
+padding-bottom: 12px;
+}

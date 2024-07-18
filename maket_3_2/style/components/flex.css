@@ -1,0 +1,28 @@
+
+.df{
+display: flex;
+}
+
+.fd-c{
+flex-direction: column;
+}
+
+.jc-c{
+justify-content: center;
+}
+
+.g5{
+gap: 5px;
+}
+
+.g10{
+gap: 10px;
+}
+.g20{
+gap: 20px;
+}
+.g30{
+gap: 30px;
+}
+
+

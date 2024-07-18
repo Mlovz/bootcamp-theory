@@ -1,0 +1,39 @@
+
+
+.tag-open{
+background: #F0F1FA;
+color: #4F5AED;
+border-radius: 10px;
+padding: 1px 10px;
+width: 52px;
+height: 20px;
+}
+
+.tag-paid{
+background:  #e1fcef;
+color: #14804A;
+border-radius: 10px;
+padding: 1px 10px;
+width: 47px;
+height: 20px;
+}
+
+.tag-inactive{
+background: #E9EDF5;
+color: #5A6376;
+border-radius: 10px;
+padding: 1px 10px;
+width: 68px;
+height: 20px;
+}
+
+.tag-due{
+background: #FAF0F3;
+color: #D12953;
+border-radius: 10px;
+padding: 1px 10px;
+width: 44px;
+height: 20px;
+}
+
+

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+list-style: none;
+}
+
+button, input{
+    outline: none;
+    border: none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background-color: #f0f0f0;
+}
+
+.btn{
+background-color: #000000;
+color:  white;
+padding:10px 25px;
+text-align: center;
+font-size: 14px;
+cursor: pointer;
+border-radius: 8px;
+border:1px solid transparent;
+font-weight: bold;
+font-family: "Consolas";
+transition: all 0.2s;
+}
+
+.btn:hover{
+    background-color: #313131;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+.primary{
+    background-color: #0084ff;
+}
+
+.primary:hover{
+    background-color: #005eb6;
+}
+
+.outline{
+    background-color: transparent;
+    border-color: #0084ff;
+    color: #0084ff;
+}
+.outline:hover{
+    background-color: #0084ff;
+}
+
+.btn-max{
+    width: 100%;
+
+}
+
+.btn-header{
+width: 146px;
+height: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #2264e5;
+cursor: pointer;
+color: white;
+gap: 8px;
+border-radius: 6px;
+box-shadow: 0 2px 5px 0 rgba(34, 100, 229, 0.12), 0 0 0 1px #2264e5, 0 1px 1px 0 rgba(0, 0, 0, 0.14), inset 0 1px 0 0 #4b85fa;
+}
