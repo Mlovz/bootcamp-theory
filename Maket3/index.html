@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="data-table">
+        <div class="search-filter">
+          <div class="search-input">
+            <button class="search-input__btn">
+              <img
+                src="./assets/filter (1).svg"
+                alt=""
+                class="search-input__image"
+              />
+            </button>
+            <div class="input-wrap">
+              <img src="./assets/Search.svg" alt="" class="input-wrap__image" />
+              <input type="text" placeholder="Search..." />
+            </div>
+          </div>
+          <button class="search__custbtn">
+            <img src="./assets/add (1).svg" alt="" /> <span>Add customer</span>
+          </button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </th>
+              <th>
+                <div class="col-roulette col__number">
+                  <span>#</span>
+                  <div class="col-roulette-btn">
+                    <button>▲</button>
+                    <button>▼</button>
+                  </div>
+                </div>
+              </th>
+              <th>
+                <div class="col-roulette">
+                  <span class="col-name">name</span>
+                  <div class="col-roulette-btn">
+                    <button>▲</button>
+                    <button>▼</button>
+                  </div>
+                </div>
+              </th>
+              <th>
+                <span>description</span>
+              </th>
+              <th>
+                <div class="col-roulette">
+                  <span>status</span>
+                  <div class="col-roulette-btn">
+                    <button>▲</button>
+                    <button>▼</button>
+                  </div>
+                </div>
+              </th>
+              <th>
+                <span class="col-rate">Rate</span>
+              </th>
+              <th>
+                <span class="col-balance">Balance</span>
+              </th>
+              <th>
+                <span class="col-deposit"> Deposit </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">1</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Ann Culhane</span>
+                  <span>5684236526</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__open col-status">Open</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__negative">$-270.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">2</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Ahmad Rosser</span>
+                  <span>5684236527</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__paid col-status">Paid</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__positive">$270.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">3</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Zain Calzoni</span>
+                  <span>5684236528</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__open col-status">Open</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__negative">$-20.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">4</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Leo Stanton</span>
+                  <span>5684236529</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__inactive col-status">Inactive</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__positive">$600.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">5</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Kaiya Vetrovs</span>
+                  <span>5684236530</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__open col-status">Open</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__negative">$-350.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">6</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Ryan Westervelt</span>
+                  <span>5684236531</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__paid col-status">Paid</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__negative">$-270.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">7</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Corey Stanton</span>
+                  <span>5684236532</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__due col-status">Due</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__positive">$30.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">8</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Adison Aminoff</span>
+                  <span>5684236533</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__open col-status">Open</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__negative">$-270.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">9</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Alfredo Aminoff</span>
+                  <span>5684236534</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__inactive col-status">Inactive</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__positive">$460.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-checkbox">
+                  <input type="checkbox" />
+                </div>
+              </td>
+              <td><span class="col__number">9</span></td>
+              <td>
+                <div class="col-name">
+                  <span>Alfredo Aminoff</span>
+                  <span>5684236534</span>
+                </div>
+              </td>
+              <td>
+                <span class="col__desc"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nulla...</span
+                >
+              </td>
+              <td>
+                <div>
+                  <span class="col-status__inactive col-status">Inactive</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-rate">
+                  <span class="col__price">$70.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-balance">
+                  <span class="col__positive">$460.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+              <td>
+                <div class="col-deposit">
+                  <span class="col__price">$500.00</span>
+                  <span class="col-rate__cad">CAD</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="blur-cont">
+          <div class="blur-cont-info">
+            <span>1-10 of 97</span>
+          </div>
+          <div class="blur-cont-flip">
+            <div class="blur-cont-pages">
+              <span>Rows per page:</span>
+              <span>10</span>
+              <button><img src="./assets/icon (1).svg" alt="" /></button>
+            </div>
+            <div class="blur-cont-flip-btn">
+              <button><img src="./assets/left.svg" alt="" /></button>
+              <span>1/10</span>
+              <button><img src="./assets/right.svg" alt="" /></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="follow-cont">
+        <div class="follow-cont-left">
+          <a href="#">🎉 Data Table v3 🎉</a>
+        </div>
+        <div class="follow-cont-right">
+          <span>Follow me on:</span>
+          <button>figma</button>
+          <button>twitter</button>
+          <button>dribbble</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

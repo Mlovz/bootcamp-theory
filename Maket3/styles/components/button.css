@@ -1,0 +1,14 @@
+.search__custbtn {
+  border-radius: 6px;
+  padding: 6px 12px;
+  width: 146px;
+  height: 32px;
+  box-shadow: 0 2px 5px 0 rgba(34, 100, 229, 0.12), 0 0 0 1px #2264e5,
+    0 1px 1px 0 rgba(0, 0, 0, 0.14), inset 0 1px 0 0 #4b85fa;
+  background: #2264e5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}

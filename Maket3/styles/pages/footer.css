@@ -1,0 +1,77 @@
+.blur-cont {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 44px;
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-align: right;
+    color: #687182;
+  }
+}
+.blur-cont-flip {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.blur-cont-pages {
+  gap: 2px;
+  button {
+    background: transparent;
+  }
+}
+.blur-cont-flip-btn {
+  display: flex;
+  align-items: center;
+  button {
+    background: transparent;
+  }
+}
+.follow-cont {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.follow-cont-left {
+  a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #2264e5;
+  }
+}
+.follow-cont-right {
+  span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #464f60;
+  }
+  button {
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #2264e5;
+    border-radius: 4px;
+    padding: 0px 8px;
+    width: max-content;
+    height: 20px;
+    background: #ebf0fa;
+  }
+}
