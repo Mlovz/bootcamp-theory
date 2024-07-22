@@ -1,0 +1,30 @@
+.btn {
+  border: 1px solid var(--blue-400);
+  border-radius: 24px;
+  padding: 16px 21px;
+  background: var(--blue-400);
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-maxw {
+  width: 100%;
+}
+.btn--abso {
+  position: absolute;
+  bottom: -70px;
+}
+.best-teams__btn {
+  color: var(--blue-400);
+  background: transparent;
+  border: 1px solid #4262ff;
+  border-radius: 24px;
+  padding: 10px 31px 14px 35px;
+}

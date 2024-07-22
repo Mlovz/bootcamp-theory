@@ -1,0 +1,48 @@
+.final-page {
+  display: flex;
+  gap: 40px;
+  padding: 0px 40px;
+}
+.final-page-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.final-page-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  a {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--blue-700-opacity40);
+  }
+}
+.final-page-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 14px;
+  max-width: 350px;
+  height: 60px;
+  background: var(--white-300);
+}
+.final-page-foot-left {
+  span {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 136%;
+    color: var(--blue-700);
+  }
+}
+.final-page-foot-right {
+  display: flex;
+  gap: 14px;
+  button {
+    background: transparent;
+  }
+}

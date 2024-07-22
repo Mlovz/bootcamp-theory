@@ -1,0 +1,62 @@
+.best-teams {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  flex-direction: column;
+  padding: 36px 36px;
+}
+.best-teams__title {
+  text-align: center;
+}
+.best-teams-bottom {
+  display: flex;
+  gap: 20px;
+}
+.best-teams-block {
+  padding: 23px 34px 44px 24px;
+  max-width: 359px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  .blue-400 {
+    color: var(--blue-400);
+  }
+  img {
+    box-shadow: 0 4px 12px 0 rgba(5, 0, 56, 0.08);
+  }
+}
+.best-teams-block-avatar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.best-teams-block:nth-child(1) {
+  .best-teams-block-avatar {
+    margin-top: 10px;
+  }
+}
+.best-teams-block:nth-child(2) {
+  .best-teams-block-avatar {
+    margin-top: 80px;
+  }
+}
+.best-teams-block:nth-child(3) {
+  .best-teams-block-avatar {
+    margin-top: 55px;
+    .avatar-info {
+      gap: 10px;
+    }
+  }
+}
+.avatar-info {
+  display: flex;
+  flex-direction: column;
+  span {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: rgba(5, 0, 56, 0.6);
+  }
+}

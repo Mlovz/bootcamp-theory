@@ -1,0 +1,42 @@
+.cooperation {
+  position: relative;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  flex-direction: column;
+  padding: 44px 0px;
+}
+.cooperation__title {
+  width: 448px;
+  text-align: center;
+}
+.cooperation-bottom {
+  display: flex;
+  gap: 20px;
+}
+.cooperation-block {
+  padding: 23px 34px 44px 24px;
+  max-width: 359px;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: var(--blue-700);
+  }
+  .blue-400 {
+    color: var(--blue-400);
+  }
+}
+.image--abso {
+  position: absolute;
+  top: -30px;
+  transform: translateX(187px);
+  z-index: -2;
+}
