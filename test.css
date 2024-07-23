@@ -1,29 +1,43 @@
-
-
-.text-gray{
-    color: gray;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.flex{
-    display: flex;
-    
+body{
+    padding: 20px;
+}
+/* 
+.item{
+    border: 1px solid #000;
+    width: 220px;
 }
 
-.a-center{
-    align-items: center;
+input{
+    border: 1px solid red;
+    width: 210px;
+    padding: 0 30px;
+} */
+
+
+button{
+    border: none;
+    outline: none;
 }
 
-.j-center{
-    justify-content: center;
+.btn{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}   
+
+.btn-primary{
+    background: #000;
+    color: #fff;
+    border: 10px solid #000;
 }
 
-.block{
-    display: flex;
-    align-items: center;
-}
-
-.list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.btn-outline{
+    background: transparent;
+    border: 1px solid #000;
 }
