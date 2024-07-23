@@ -1,0 +1,30 @@
+.header-wrap {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+}
+
+.header-search {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+border: 1px solid #000;
+flex: 1;
+border-radius: 62px;
+background: #f0f0f0;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 14px; 
+}
+.header-poisk{
+    background-color: #f0f0f0;
+}
