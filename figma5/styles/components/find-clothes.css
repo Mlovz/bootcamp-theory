@@ -1,0 +1,56 @@
+.find-clothes {
+  background-color: #f2f0f1;
+}
+.find-clothes-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 53px;
+}
+
+.find-clothes-left {
+  height: 100%;
+  max-width: 577px;
+  display: flex;
+  padding: 100px 0px;
+  flex-direction: column;
+  gap: 48px;
+}
+.find-clothes-left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #000;
+  }
+}
+.find-clothes-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.review{
+  display: flex;
+  align-items: center;
+  p {
+    font-size: 12px;
+  }
+  div:nth-child(1) {
+    padding-right: 32px;
+  }
+  div:nth-child(2) {
+    padding-left: 32px;
+    padding-right: 32px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  div:nth-child(3) {
+    padding-left: 32px;
+  }
+
+}
