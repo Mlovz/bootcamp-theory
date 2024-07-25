@@ -1,0 +1,32 @@
+/* pages */
+@import url("./pages/left.css");
+@import url("./pages/right.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.cv {
+  margin-top: 32px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
