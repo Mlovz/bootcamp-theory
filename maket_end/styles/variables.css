@@ -1,0 +1,26 @@
+:root{
+  --primary: #4262FF;
+
+  --black: #000;
+  --black_opacity: rgba(0, 0, 0, 0.6);
+  --black_opacity_1: rgba(0, 0, 0, 0.4);
+
+  --light: #F0F0F0;
+  --gray:rgb(5, 0, 56, 0.4);
+  --yellow: #FFD02F;
+
+  --white: #fff;
+}
+
+.rd{
+  color: #f33;
+}
+
+.c-bk{
+  color:var(--black);
+}
+
+.op4{
+  color:var(--black_opacity_1);
+}
+

@@ -1,0 +1,25 @@
+
+
+.dress-wrap{
+  margin-top: 150px;
+}
+
+.subtitle-dress{
+  text-align: center;
+}
+
+.dress-items{
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.dress-item{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
