@@ -1,0 +1,32 @@
+.login {
+  height: 100vh;
+  background-color: #2148c0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 71px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  width: 300px;
+}
+.login-form_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 11px;
+}
+.img-wrap {
+  position: absolute;
+  left: 12px;
+  top: 11px;
+}

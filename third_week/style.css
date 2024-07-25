@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* components */
+@import url(./styles/components/button.css);
+@import url(./styles/components/input.css);
+@import url(./styles/components/link.css);
+/* pages */
+@import url(./styles/pages/login.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+ul, ol {
+  list-style: none;
+}
+button, input {
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit
+}
