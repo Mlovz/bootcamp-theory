@@ -1,0 +1,54 @@
+.main-collab {
+	position: relative;
+	height: 476px;
+	max-width: 1140px;
+	width: 100%;
+	margin-top: 24px;
+	margin-inline: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.collab-wrap {
+	position: relative;
+	width: 100%;
+	max-width: 1120px;
+	height: 168px;
+	display: flex;
+	justify-content: center;
+	padding: 0px 10px;
+	> .title-l {
+		height: 168px;
+		width: 448px;
+		display: flex;
+		text-align: center;
+		align-items: end;
+	}
+}
+.image-collab {
+	position: absolute;
+	top: -20px;
+	right: 271px;
+}
+.collab-parts {
+	margin-top: 0px;
+	width: 100%;
+	display: flex;
+	gap: 20px;
+	padding: 0px 10px;
+}
+.collab-block {
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 29px;
+	max-width: 359px;
+	padding: 23px 29px 44px 24px;
+	.collab-info {
+		width: 301px;
+		.collab-info-link {
+			color: var(--blue);
+		}
+	}
+}
