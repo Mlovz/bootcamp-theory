@@ -1,0 +1,15 @@
+@import url(./styles/pages/registration.css);
+@import url(./styles/components/button.css);
+@import url(./styles/components/input.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul, ol {
+  list-style: none;
+}
+/* button, input {
+  border: none;
+  outline: none;
+} */
