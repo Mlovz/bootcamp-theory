@@ -1,0 +1,27 @@
+.employers-wrap {
+	max-width: 1440px;
+	width: 100%;
+	height: 284px;
+	margin-inline: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	padding: 60px 160px;
+}
+.trusted_by {
+	font-family: 'inter' !important;
+}
+.employers-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1120px;
+	height: 164px;
+}
+.employers-list {
+	display: flex;
+	justify-content: space-between;
+	width: 1120px;
+	margin-top: 48px;
+}

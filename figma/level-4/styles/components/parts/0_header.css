@@ -1,0 +1,58 @@
+.header {
+	border-bottom: 1px solid var(--light);
+}
+
+.header-wrap {
+	max-width: 1440px;
+	width: 100%;
+	height: 91px;
+	margin-inline: auto;
+	/* border: 1px solid #000; */
+	display: flex;
+	align-items: center;
+	gap: 28px;
+}
+.header-nav {
+	/* border: 1px solid black; */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-logo {
+}
+
+.header-left-list {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	li {
+		a {
+			display: flex;
+			align-items: center;
+			/* вопрос: почему так далеко становятся иконки, если в фигме такой же гап? */
+			gap: 13px;
+		}
+		/* хувер в li и a работают одинаково */
+		&:hover {
+			color: var(--primary);
+		}
+	}
+}
+
+.header-right-list {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	li {
+		a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 16px;
+		}
+		.language-icon {
+			gap: 8px;
+		}
+	}
+}

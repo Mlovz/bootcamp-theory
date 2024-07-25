@@ -1,0 +1,16 @@
+:root {
+	--primary: #4262ff;
+	--light: #f0f0f0;
+	--black: #050038;
+	--black_opacity: rgba(5, 0, 56, 0.72);
+	--gray: rgba(5, 0, 56, 0.4);
+	--yellow: #ffd02f;
+	--white: #fff;
+	--lightgray: rgba(155, 153, 175, 1);
+	--lightviolet: rgba(95, 92, 128, 1);
+	--gray_back: rgba(245, 245, 247, 1);
+	--blue: rgba(66, 98, 255, 1);
+	--gray_border: rgba(242, 242, 242, 1);
+	--active_btn: rgba(241, 243, 253, 1);
+	--gray-border: #9b99af;
+}

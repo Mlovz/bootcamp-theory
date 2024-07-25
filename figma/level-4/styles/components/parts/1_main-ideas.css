@@ -1,0 +1,60 @@
+.ideas-wrap {
+	margin-top: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0px 40px;
+	gap: 40px;
+}
+.ideas-info {
+	display: flex;
+	flex-direction: column;
+	width: 440px;
+	height: 469px;
+}
+.about-miro {
+	margin-top: 16px;
+}
+.email_for_free_SignUp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 440px;
+	gap: 10px;
+	> input {
+		color: var(--lightviolet);
+		border-radius: 32px;
+		border: 1px solid var(--lightgray);
+		height: 48px;
+		padding-left: 25px;
+		width: 440px;
+		font-family: 'Inter';
+	}
+	margin-top: 32px;
+}
+.collab-text {
+	margin-top: 7px;
+}
+.ideas-info-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 14px;
+	border-radius: 8px;
+	background-color: var(--gray_back);
+	width: 350px;
+	height: 60px;
+	margin-top: 41px;
+}
+.info-stars-block {
+	display: flex;
+	flex-direction: column;
+}
+.info-logos {
+	display: flex;
+	justify-content: space-between;
+	gap: 14.33px;
+	width: 185px;
+	height: 32px;
+	padding: 0px 14.33px;
+}

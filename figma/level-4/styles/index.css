@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(./variables.css);
+@import url(./components/button.css);
+@import url(./components/parts/0_header.css);
+@import url(./components/parts/1_main-ideas.css);
+@import url(./components/parts/2_employers.css);
+@import url(./components/title.css);
+@import url('./components/parts/3_collaborate.css');
+@import url('components/parts/4_work-together.css');
+@import url(./components/parts/5_connect-tools.css);
+@import url(./components/parts/6_just-picture.css);
+@import url(./components/parts/7_built-for-the-way.css);
+@import url(./components/parts/8_built-for-all-kinds.css);
+@import url(./components/parts/9_why-trust_miro.css);
+@import url(./components/parts/9+1_loved-by.css);
+@import url(./components/parts/9+2_join-45-mln.css);
+@import url(./components/parts/footer.css);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+ul,
+ol {
+	list-style: none;
+}
+input,
+button {
+	border: none;
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	/* задаём максимальную ширину, вычтя с максимальной ширины всей страницы (1440) отступы, которые идут слева и справа этой штуки, но почему-то первая большая картинка смещается за правую границу, если так (1120) оставить*/
+	max-width: 1200px;
+	width: 100%;
+	margin-inline: auto;
+}
+.main {
+	margin-bottom: 120px;
+}
+/* для 4 и 5 частей */
+.img-center {
+	display: flex;
+	align-items: center;
+}
+.t-d-underline {
+	color: var(--blue);
+	text-decoration: underline;
+}
+/* для 7 и 8 частей */
+.built-for-wrap {
+	border-radius: 8px;
+	max-width: 1120px;
+	width: 100%;
+	height: 739.02px;
+	margin-inline: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+.opportunities-block {
+	width: 1060px;
+	height: 517.02px;
+	display: flex;
+	margin-top: 26px;
+}
