@@ -1,0 +1,36 @@
+
+
+.discount{
+  background:var(--black);
+}
+
+.discount-popup {
+  color:var(--white);
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.discount-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  text-align: center;
+}
+.discount-info a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.discount-close {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 9px;
+}

@@ -1,0 +1,50 @@
+
+.title{
+color: var(--black);
+}
+
+.title-l{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+color:var(--black);
+}
+
+
+.title-m{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+color: var(--white);
+}
+
+.title-s{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+}
+.title-s-m{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color:var(--white);
+}
+
+.title-s-s{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 137%;
+color: var(--black_opacity);
+}
+
+.title-s-14{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: var(--black_opacity);
+}
+
+
+

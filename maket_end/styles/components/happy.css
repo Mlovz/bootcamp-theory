@@ -1,0 +1,48 @@
+
+
+.happy-wrap{
+  margin-top: 80px;
+}
+
+.happy-title{
+  display: flex;
+  gap: 522px;
+}
+
+.scrolling{
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.happy-items{
+  display: flex;
+  margin-top: 40px;
+
+}
+
+.happy-comments-block{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 28px 32px;
+}
+.pdg{
+padding: 28px 32px 50.42px 32px;
+}
+.list-comments-icon{
+  display: flex;
+  gap: 6.49px;
+}
+
+.commentator{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.commentator-name{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

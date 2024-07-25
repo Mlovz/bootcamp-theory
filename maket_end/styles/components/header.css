@@ -1,0 +1,31 @@
+
+.header-wrap{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-list{
+display: flex;
+gap: 24px;
+}
+
+.header_input{
+display: flex;
+align-items: center;
+flex: 1;
+background:var(--light);
+border-radius: 62px;
+padding-left: 16px;
+}
+
+.header-icon{
+display: flex;
+align-items: center;
+gap: 14px;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+
+
+
+
+.clothes{
+  background:  #f2f0f1;
+}
+
+.clothes-wrap{
+  display: flex;
+  align-items: center;
+}
+
+.clothes-items{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.clothes-list-item-1{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+
+.clothes-list-item-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-clothes{
+  display: flex;
+  flex-direction: column;
+  }
