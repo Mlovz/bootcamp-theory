@@ -1,0 +1,41 @@
+header {
+  border-bottom: 1px solid var(--grey-200);
+}
+.header-cont {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 91px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header-left-list {
+  display: flex;
+  gap: 20px;
+  li {
+    display: flex;
+    gap: 13px;
+  }
+  button {
+    background: transparent;
+    cursor: pointer;
+  }
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-right__btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+main {
+  margin-top: 63px;
+  margin-bottom: 120px;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: var(--blue-700);
+}
+.subtitle {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--blue-700-opacity72);
+}
+.trusted {
+  margin-top: 57px;
+}
+.work-together {
+  margin-top: 120px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  height: 264px;
+  text-align: left;
+  gap: 30px;
+}
+.data-link {
+  display: inline-block;
+  border-bottom: 1px solid var(--blue-400);
+  width: 104px;
+  height: 23px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--blue-400);
+}
+.m-w {
+  display: flex;
+  max-width: 1140px;
+  height: 535px;
+  align-items: center;
+  gap: 100px;
+}
+.d-f {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 60px 0px;
+}
+.way-work {
+  margin-top: 60px;
+}
+.built-teams {
+  margin-top: 60px;
+}
+.maxwidth-sect {
+  margin-top: 60px;
+}
+.users-today {
+  margin-top: 60px;
+}
