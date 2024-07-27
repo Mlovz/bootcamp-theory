@@ -1,0 +1,57 @@
+.date-about {
+  border-radius: 20px;
+  padding: 36px 64px;
+  background: var(--black-900);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(90px);
+}
+.date-about-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 112%;
+  color: var(--white-100);
+  max-width: 551px;
+  width: 100%;
+}
+.date-about-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  max-width: 349px;
+  width: 100%;
+}
+
+.date-about-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  input {
+    border-radius: 62px;
+    padding: 12px 0px;
+    width: 100%;
+    padding-left: 52px;
+  }
+  img {
+    position: absolute;
+    top: 9px;
+    left: 16px;
+  }
+  input::placeholder {
+    font-weight: 400;
+    color: var(--black-900-opacity40);
+  }
+}
+.date-about-btn {
+  border-radius: 62px;
+  padding: 12px 0px;
+  background: var(--white-100);
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black-900);
+}

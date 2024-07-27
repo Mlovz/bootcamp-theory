@@ -1,0 +1,32 @@
+.dress-style {
+  padding: 73px 64px;
+  background: var(--white-400);
+  border-radius: 40px;
+}
+.dress-style-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  padding-top: 65px;
+}
+.dress-style-links-top {
+  display: flex;
+  gap: 31px;
+}
+.dress-style-links-bottom {
+  display: flex;
+  gap: 20px;
+}
+.dress-style-link {
+  position: relative;
+  display: flex;
+  span {
+    position: absolute;
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--black-900);
+    top: 25px;
+    left: 36px;
+  }
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url(./components/button.css);
+@import url(./components/input.css);
+@import url(./components/link.css);
+@import url(./components/header.css);
+@import url(./components/find-clothes.css);
+@import url(./components/brands-section.css);
+@import url(./components/new-arrivals.css);
+@import url(./components/product-card.css);
+@import url(./components/top-selling.css);
+@import url(./components/dress-style.css);
+@import url(./components/customers-section.css);
+@import url(./components/reviews.css);
+@import url(./components/date-about.css);
+@import url(./components/footer.css);
+@import url(./components/also-like-wrap.css);
+@import url(./components/product-view.css);
+@import url(./components/choose-option.css);
+/* pages */
+@import url(./pages/HomePage.css);
+@import url(./pages/ProductDetailPage.css);
+@import url(./variables.css);
+body {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
