@@ -1,0 +1,42 @@
+@import url("./components/button.css");
+@import url("./components/header.css");
+@import url("./components/find-clothes.css");
+@import url("./pages/homepage.css");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "nunito";
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+.brands-section {
+  background-color: black;
+}
+.logo-items {
+  width: 100%;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
