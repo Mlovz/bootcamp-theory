@@ -109,3 +109,113 @@ const colors = {
 const isAdmin = 2
 
 console.log(isAdmin);
+
+// function all() {
+//   // let 
+//   // const 
+//   // var
+
+//   // let a;
+
+//   // a = 10
+
+//   // var b;
+
+//   // b = 30
+
+//   // const c = 400
+
+//   // let a = ''
+
+//   // let b = false
+
+//   // let t = 10
+
+//   // console.log(t);
+//   // console.log(t);
+
+//   // const user = {
+//   //   h: 500,
+//   // }
+
+//   // user.w = 200
+
+//   // console.log(user);
+
+
+//   const arr = ['hi', 102, false, {w: 100}, 1]
+
+//   // arr.length
+
+//   const str = 'hello'
+
+//   // str.length
+
+//   // Add item
+//   // arr.push(600)
+//   // arr.unshift(1000)
+
+
+//   // Delete Item
+
+//   // arr.pop()
+//   // arr.shift().
+
+//   // console.log(arr[arr.length - 1]);
+
+//   // console.log(newMap);
+
+//   // const username = 'Test'
+
+//   // let result = `Меня зовут ${username}` 
+
+//   // console.log(result);
+
+//   // const isUser = false
+
+//   // let newItem = String(isUser)
+
+//   // console.log(typeof isUser)
+// }
+
+// all()
+
+
+
+
+// console.log(name(10));
+
+// function name(num) {
+//   let newNum = num * num
+//   return newNum
+// }
+
+
+// function greet(name) {
+//   let str = `Привет ${name}`
+//   console.log(str);
+// }
+
+// greet('Nazir')
+
+// console.log(2**3)
+
+// function num(a, b, c = 1) {}
+
+// num(10, 20, 30)
+
+
+// const newArr = [100, [1,2,3,4]]
+
+// console.log(newArr[1][3]);
+
+
+// const user = {
+//   isStudent: function (){
+//     console.log('test');
+//   },
+//   w: 100,
+//   age: 15
+// }
+
+// user.isStudent()
