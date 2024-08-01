@@ -104,6 +104,3 @@ const colors = {
 // arr.unshift(577)
 
 // console.log(arr.length);
-
-
-// console.log(str.length);
