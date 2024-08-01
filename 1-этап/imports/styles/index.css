@@ -1,0 +1,13 @@
+@import url('./reset.css');
+
+/* components */
+@import url("./components/button.css");
+@import url("./components/input.css");
+
+/* pages */
+@import url("./pages/login.css");
+@import url("./pages/register.css");
+
+
+
+

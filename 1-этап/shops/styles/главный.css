@@ -1,0 +1,14 @@
+@import url('./components/button.css');
+@import url('./components/flex.css');
+@import url('./components/fontSize.css');
+@import url('./components/productCard.css');
+
+/* pages */
+@import url('./pages/category.css');
+@import url('./pages/index.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
