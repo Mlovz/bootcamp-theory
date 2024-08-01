@@ -2,7 +2,6 @@
 // String
 // Undefined
 
-
 // 
 // = - знак привоение
 // == - знак сравнение по типу данных
@@ -106,6 +105,5 @@ const colors = {
 
 // console.log(arr.length);
 
-const isAdmin = 2
 
-console.log(isAdmin);
+// console.log(str.length);
