@@ -30,3 +30,56 @@
 // 28. Создайте цикл, который выводит все числа от 1 до 30. Если число делится на 8, выведите "Eight", если на 12, выведите "Twelve", если на 16, выведите "Sixteen", в противном случае выведите число.
 // 29. Напишите цикл, который выводит сумму всех чисел от 1 до 100, пропуская числа, кратные 8 или 10.
 // 30. Создайте цикл, который выводит все числа от 1 до 50. Если число делится на 3 и на 7, выведите "ThreeSeven", если только на 3, выведите "Three", если только на 7, выведите "Seven", в противном случае выведите число.
+
+
+// 'init' | 'failed' | 'loading' | 'loaded'
+
+const status = 'loaded' 
+
+
+if(status === 'failed'){
+    console.log('Error');
+}else if (status === 'loading'){
+    console.log('Загрузка');
+}else if(status === 'loaded'){
+    console.log('Succces');
+}else{
+    console.log('Начало');
+}
+
+
+status === 'failed' 
+? console.log('Error') 
+: status === 'loading' 
+? console.log('Загрузка') 
+: status === 'loaded' 
+? console.log('Succces') 
+: console.log('Начало');
+
+
+
+const numsArr = [203, 504, 101, 399, 600, 100, 100, 600, 700, 100]
+
+
+// for(let i = 0; i < numsArr.length; i++) {
+//     console.log(numsArr[i]);
+// }
+
+const newArr = []
+
+
+for(let item of numsArr){
+    if(item === 100){
+        console.log(item);
+    }else if(item === 600){
+        newArr.push(item)
+    }else{
+        console.log('Error');
+        
+    }
+}
+
+
+console.log(newArr);
+
+
