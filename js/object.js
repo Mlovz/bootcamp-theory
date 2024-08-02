@@ -1,22 +1,60 @@
 // Создайте объект person с свойствами name и age.
 
+const person = {
+    name: 'Test',
+    age: 10
+}
+
 // Выведите значение свойства name объекта person.
+
+console.log(person.name);
+
+
 
 // Измените значение свойства age объекта person на 30.
 
+person.age = 30;
+console.log(person);
+
 // Добавьте свойство city с значением "New York" к объекту person.
+
+person.city = 'New York';
+console.log(person);
 
 // Удалите свойство city из объекта person.
 
+delete person.city;
+console.log(person);
+
 // Проверьте, существует ли свойство name в объекте person.
+
+console.log('name' in person);
 
 // Объедините два объекта obj1 и obj2 в один.
 
+const obj1 = {name: 'John'}
+const obj2 = {age: 10}
+const mergedObj = {...obj1,...obj2};
+
+console.log(mergedObj);
+
 // Создайте копию объекта person.
+const newPerson = {...person}
 
 // Переберите все свойства объекта person и выведите их значения.
 
 // Создайте массив объектов people, каждый объект должен содержать свойства name и age.
+
+const people = [
+    {
+        name: '',
+        age: ''
+    },
+    {
+        name: '',
+        age: ''
+    }
+]
 
 // Найдите объект с именем "John" в массиве people.
 
@@ -27,6 +65,10 @@
 // Добавьте метод greet в объект person, который выводит приветствие.
 
 // Вызовите метод greet объекта person.
+
+person.greet = () => {}
+
+console.log(person);
 
 // Добавьте метод setAge в объект person, который принимает параметр и устанавливает новое значение для свойства age.
 
@@ -43,6 +85,17 @@
 // Найдите объект сотрудника с именем "Alice" в массиве employees объекта company.
 
 // Добавьте свойство с именем, заданным переменной, к объекту person.
+
+// const user = {
+// }
+
+
+// const a = 'test'
+// user[a] = 'Alice'
+// console.log(user);
+
+
+
 
 // Удалите свойство с именем, заданным переменной, из объекта person.
 

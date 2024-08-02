@@ -104,3 +104,97 @@ const colors = {
 // arr.unshift(577)
 
 // console.log(arr.length);
+
+// function sum(){}
+// sum()
+
+// const sum = (a) => {}
+
+// sum()
+
+// const sum = () => {}
+// function sum(){}
+
+// () => {}
+// function (){}
+
+
+// const nums = [100, 594, 100, 101, 632]
+
+// const newArr = nums.filter((a) => {
+//     return a === 100
+// })
+
+// console.log(newArr);
+
+// const isShow = 10
+
+// if(isShow === 10){
+//     console.log('true');
+// }else if(isShow === 11) {
+//     console.log('false');
+// }else if(isShow == 12) {
+//     console.log();
+// }else{
+
+// }
+
+
+// const nums = [100, 594, 100, 101, 632]
+
+// for(let i = 0; i < nums.length; i++){
+//     console.log(nums[i]);
+// }
+
+// for(let item of nums){
+//     console.log(item);
+// }
+
+
+// for(let item in person){
+//     console.log(item);
+// }
+
+
+// const people = [
+//     {
+//         name: 'Jonh',
+//         age: 20
+//     },
+//     {
+//         name: 'Test',
+//         age: 25
+//     },
+//     {
+//         name: 'Map',
+//         age: 230
+//     }
+// ]
+
+// const newItem = people.find((a) => a.name === 'Jonh')
+
+// console.log(newItem);
+
+window
+
+const user = {
+    username: 'Test',
+    firstname: 'Testov',
+    age: 50,
+    getName: () => {
+        console.log(this);
+    },
+    // getName: function(){
+    //     console.log(this.age);
+    // },
+}
+
+user.getName()
+
+
+// const sum = () => {}
+// function sum() {}
+
+
+
+
