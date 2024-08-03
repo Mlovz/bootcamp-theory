@@ -2,7 +2,6 @@
 // String
 // Undefined
 
-
 // 
 // = - знак привоение
 // == - знак сравнение по типу данных
@@ -106,116 +105,96 @@ const colors = {
 
 // console.log(arr.length);
 
-const isAdmin = 2
+// function sum(){}
+// sum()
 
-console.log(isAdmin);
+// const sum = (a) => {}
 
-// function all() {
-//   // let 
-//   // const 
-//   // var
+// sum()
 
-//   // let a;
+// const sum = () => {}
+// function sum(){}
 
-//   // a = 10
-
-//   // var b;
-
-//   // b = 30
-
-//   // const c = 400
-
-//   // let a = ''
-
-//   // let b = false
-
-//   // let t = 10
-
-//   // console.log(t);
-//   // console.log(t);
-
-//   // const user = {
-//   //   h: 500,
-//   // }
-
-//   // user.w = 200
-
-//   // console.log(user);
+// () => {}
+// function (){}
 
 
-//   const arr = ['hi', 102, false, {w: 100}, 1]
+// const nums = [100, 594, 100, 101, 632]
 
-//   // arr.length
+// const newArr = nums.filter((a) => {
+//     return a === 100
+// })
 
-//   const str = 'hello'
+// console.log(newArr);
 
-//   // str.length
+// const isShow = 10
 
-//   // Add item
-//   // arr.push(600)
-//   // arr.unshift(1000)
+// if(isShow === 10){
+//     console.log('true');
+// }else if(isShow === 11) {
+//     console.log('false');
+// }else if(isShow == 12) {
+//     console.log();
+// }else{
 
-
-//   // Delete Item
-
-//   // arr.pop()
-//   // arr.shift().
-
-//   // console.log(arr[arr.length - 1]);
-
-//   // console.log(newMap);
-
-//   // const username = 'Test'
-
-//   // let result = `Меня зовут ${username}` 
-
-//   // console.log(result);
-
-//   // const isUser = false
-
-//   // let newItem = String(isUser)
-
-//   // console.log(typeof isUser)
-// }
-
-// all()
-
-
-
-
-// console.log(name(10));
-
-// function name(num) {
-//   let newNum = num * num
-//   return newNum
 // }
 
 
-// function greet(name) {
-//   let str = `Привет ${name}`
-//   console.log(str);
+// const nums = [100, 594, 100, 101, 632]
+
+// for(let i = 0; i < nums.length; i++){
+//     console.log(nums[i]);
 // }
 
-// greet('Nazir')
-
-// console.log(2**3)
-
-// function num(a, b, c = 1) {}
-
-// num(10, 20, 30)
-
-
-// const newArr = [100, [1,2,3,4]]
-
-// console.log(newArr[1][3]);
-
-
-// const user = {
-//   isStudent: function (){
-//     console.log('test');
-//   },
-//   w: 100,
-//   age: 15
+// for(let item of nums){
+//     console.log(item);
 // }
 
-// user.isStudent()
+
+// for(let item in person){
+//     console.log(item);
+// }
+
+
+// const people = [
+//     {
+//         name: 'Jonh',
+//         age: 20
+//     },
+//     {
+//         name: 'Test',
+//         age: 25
+//     },
+//     {
+//         name: 'Map',
+//         age: 230
+//     }
+// ]
+
+// const newItem = people.find((a) => a.name === 'Jonh')
+
+// console.log(newItem);
+
+window
+
+const user = {
+    username: 'Test',
+    firstname: 'Testov',
+    age: 50,
+    getName: () => {
+        console.log(this);
+    },
+    // getName: function(){
+    //     console.log(this.age);
+    // },
+}
+
+user.getName()
+
+
+// const sum = () => {}
+// function sum() {}
+
+
+
+
