@@ -10,6 +10,8 @@ let city = 'Nazran'
 const lastname = 'Ozieva'
 let person = { name, lastname }
 console.log(person.name + ' ' + person.lastname)
+// ИЛИ
+console.log(`${person.name} ${person.lastname}`)
 
 // 4
 let isStudent = true
@@ -129,3 +131,180 @@ console.log(a1 === b1)
 let isAdult = true
 let hasTicket = true
 console.log(isAdult && hasTicket == true)
+
+// 26
+// функция с_именем(и_параметрами){
+function greet(name) {
+	// объявляет переменную, которая включает в себя в т. ч. параметры}
+	let str = `Hello, ${name}`
+	console.log(str)
+	// ИЛИ другой способ вывода в консоль
+	console.log(`Hello, ${name}`)
+}
+// вызываем_функцию_по_имени('задавая значения параметров')
+greet('world')
+
+// 27
+function square(number) {
+	// return number * number
+	console.log(number ** 2)
+	// функция корень (обратная степени 2):
+	// console.log(Math.sqrt(number))
+}
+square(9)
+
+// 28
+function multiply(a, b, c) {
+	b = 1
+	console.log(a, b, c)
+}
+multiply(2, b, 12)
+
+// 29
+let num29 = 10
+let str29 = '20'
+const unite29 = { num29, str29 }
+console.log(`${unite29.num29 + unite29.str29}`)
+
+// 30
+let isHappy = true
+isHappy = String(isHappy)
+console.log(typeof isHappy)
+// ИЛИ:
+let isHappyStr = isHappy.toString()
+console.log(typeof isHappyStr)
+
+// 31
+let array31 = [1, 2, 3, 4, 5]
+// в join в кавычках мы указываем символ, которым будем разделять элементы массива
+array31 = array31.join(' ')
+console.log(array31)
+
+// 32
+let elements32 = 'convert to array.'
+// в сплите в кавычках мы указываем символ, на которую сплит внутри своей переменной опирается для разделения, т. е. если указать пробел, то всё содержимое переменной разделяется на части, между которых есть пробелы
+elements32 = elements32.split(' ')
+console.log(elements32)
+
+// 33
+let text = 'just_text'
+console.log(text.length)
+
+// 34
+let arrays_in_array = [
+	['pomegranate', 'peach'],
+	['orange', 'pomelo'],
+	['chicken', 'pineapple', 'banana'],
+]
+arrays_in_array[2][0] = 'watermelon'
+console.log(arrays_in_array)
+
+// 35
+console.log(arrays_in_array[1][0])
+
+// 36
+let obj = {
+	// функция внутри объекта является методом, массив внутри объекта - свойством
+	greet: function (arg_или_какой_то_параметр_функции) {
+		console.log(arg_или_какой_то_параметр_функции + ' И какой-то текст')
+	},
+	// функции вызываются двумя способами
+	farewell: (
+		скобки_если_больше_1_параметра_или_ни_одного,
+		а_так_без_них = 'А_тут_2й_параметр'
+	) => {
+		console.log(скобки_если_больше_1_параметра_или_ни_одного, а_так_без_них)
+	},
+}
+obj.greet('Hi!')
+obj.farewell('Bye!')
+
+// 37
+let obj1 = {
+	greet: function (name) {
+		console.log(name)
+	},
+	farewell: function (name) {
+		console.log(name)
+	},
+}
+obj1.greet('123123')
+
+// 38
+if (person_cat.name) {
+	console.log(person_cat.name)
+}
+
+// 39
+let user = { name: 'John', age: 20 }
+// затем надо создать пустой объект:
+let clone = {}
+// копирование свойств user в clone:
+// вместо all можно key или что-то ещё
+for (let all in user) {
+	clone[all] = user[all]
+}
+// переименование нового объекта:
+clone.name = 'Pete'
+console.log(clone)
+console.log(user)
+
+// 40
+let user40 = { name: 'Jan' }
+let permission1 = { canView: true }
+let permission2 = { canEdit: false }
+// копирование всех свойств из permission1 и permission2 в user40
+Object.assign(user40, permission1, permission2)
+console.log(user40)
+
+// 41
+let x1
+
+// 42
+console.log(x1)
+
+// 43
+let y1 = null
+
+// 44
+console.log(y1)
+
+// 45
+// см. задание 34
+
+// 46
+const numbers = [1, 2, 3, 4]
+numbers.forEach(num => console.log(num))
+
+// 47
+let itsNum = 100
+itsNotNum = itsNum.toString()
+console.log(itsNotNum)
+noItsNum = parseInt(itsNotNum)
+console.log(noItsNum)
+// ИЛИ без новых переменных:
+itsNum = String(itsNum)
+console.log(itsNum)
+itsNum = Number(itsNum)
+console.log(itsNum)
+
+// 48
+const str48a = 'banana'
+const str48b = 'apple'
+console.log(str48a == str48b)
+
+// 49
+let array49 = [1, 2, 3, 8, 9]
+console.log(array49.length)
+
+// 50
+let student = {
+	address: {
+		country: 'Switzerland',
+	},
+	grades: {
+		grade: 1,
+	}
+}
+console.log('Страна проживания: ', student.address.country)
+console.log('Курс:', student.grades.grade)
