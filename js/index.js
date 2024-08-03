@@ -307,4 +307,4 @@ let student = {
 	}
 }
 console.log('Страна проживания: ', student.address.country)
-console.log('Курс:', student.grades.grade)
+console.log('Курс:', student.grades.grade) 
