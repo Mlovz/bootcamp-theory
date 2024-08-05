@@ -58,28 +58,49 @@ status === 'failed'
 
 
 
-const numsArr = [203, 504, 101, 399, 600, 100, 100, 600, 700, 100]
+const numsArr = [203, 504, 101, 399, 3, 100, 3, 600, 700, 100]
 
 
 // for(let i = 0; i < numsArr.length; i++) {
 //     console.log(numsArr[i]);
 // }
 
-const newArr = []
+// const newArr = []
 
 
-for(let item of numsArr){
-    if(item === 100){
-        console.log(item);
-    }else if(item === 600){
-        newArr.push(item)
-    }else{
-        console.log('Error');
-        
-    }
+// for(let item of numsArr){
+//     if(item !== 3){
+//         console.log(item);
+//     }
+// }
+
+
+// console.log(newArr);
+
+
+const nums = [1,2,3,4,5,6,7,8,9,10]
+
+// for(let i = 0; i < nums.length; i++){
+//     if(nums[i] !== 3){
+//         console.log(nums[i]);
+//     }
+// }
+  
+
+
+// for(let i = 0; i < 100; i++){
+//     if(i % 7 === 0){
+//         console.log(nums[i]);
+//     }
+// }
+
+
+let sum = 0
+
+for(let i = 0; i < 10; i++){
+    if(sum === 15) break
+    sum = sum + i
 }
 
-
-console.log(newArr);
-
+console.log(sum);
 
