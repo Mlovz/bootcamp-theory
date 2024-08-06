@@ -43,6 +43,7 @@
 //     age: 20,
 //     isStudent: true,
 // }
+
 // function test({username, age, isStudent}){
 //     console.log(username, age, isStudent);
 // }   

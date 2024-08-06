@@ -1,3 +1,19 @@
+// https://doka.guide/js/array-length/
+// https://doka.guide/js/array-map/
+// https://doka.guide/js/array-filter/
+// https://doka.guide/js/array-find/
+// https://doka.guide/js/array-foreach/
+// https://doka.guide/js/array-reduce/
+// https://doka.guide/js/array-reduce-right/
+// https://doka.guide/js/array-every/
+// https://doka.guide/js/array-some/
+// https://doka.guide/js/array-reverse/
+// https://doka.guide/js/includes/
+// https://doka.guide/js/array-slice/
+// https://doka.guide/js/array-sort/
+// https://doka.guide/js/array-splice/
+// https://doka.guide/js/array-join/
+
 // const nums = [100, 200, 221, 300, 323, 600, 601]
 
 // () => {}
