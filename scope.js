@@ -29,7 +29,7 @@
 // }
 
 // const arr = [10, 22, 23, 24, 21, 12, 44]
-// arr.sort((a, b) => a - b)
+// arr.sort()
 // console.log(arr);
 
 // const arr = [10, 22, 23, 24, 21, 12, 44]
@@ -54,4 +54,14 @@
 // }
 
 // const newUser = user
+
+
+// const arr = [10, 22, 23, 24, 21, 12, 44]
+
+// const sum = arr.reduce(
+//     (acc, item) => console.log(item),
+//     []
+// )
+// console.log(sum);
+
 
