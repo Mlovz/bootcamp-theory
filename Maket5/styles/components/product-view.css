@@ -1,0 +1,115 @@
+.product-view {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+.product-view-data {
+  display: flex;
+  gap: 40px;
+}
+.product-view-right {
+  h2 {
+    text-align: left;
+  }
+
+  > div {
+    padding: 24px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  > div:first-child {
+    padding: 0px 0px 24px 0px;
+  }
+  > div:last-child {
+    padding: 24px 0px 0px 0px;
+    border: none;
+  }
+}
+.product-view-select-color {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  button {
+    background: transparent;
+  }
+}
+.product-view-size {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  button {
+    border-radius: 62px;
+    padding: 12px 24px;
+    background: var(--white-400);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-900-opacity60);
+  }
+  button:hover {
+    background: var(--black-900);
+    color: var(--white-100);
+  }
+}
+.product-view-add-card {
+  display: flex;
+  gap: 20px;
+  > button {
+    width: 100%;
+  }
+}
+.product-view-roulette {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  padding: 16px 20px;
+  background: var(--white-400);
+  border-radius: 62px;
+  button {
+    background: transparent;
+  }
+}
+/*  */
+.product-view-list {
+  display: flex;
+  gap: 12px;
+  button {
+    background: transparent;
+  }
+  img {
+    transform: translateY(2px);
+  }
+}
+.product-view-list-item:nth-child(1),
+.product-view-list-item:nth-child(2),
+.product-view-list-item:nth-child(3) {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--black-900-opacity60);
+}
+
+.product-view-list-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.product-view-left {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.product-view-image-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  button {
+    background: transparent;
+    border-radius: 20px;
+    height: 168px;
+    border: 1px solid transparent;
+  }
+  button:active {
+    box-shadow: 0 4px 4px 0 var(--black-900-opacity25);
+    border: 1px solid var(--black-900);
+  }
+}

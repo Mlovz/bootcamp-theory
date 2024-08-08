@@ -1,0 +1,55 @@
+.find-clothes-section {
+  background: var(--white-500);
+}
+.find-clothes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.find-clothes-left {
+  max-width: 577px;
+  width: 100%;
+  position: relative;
+  z-index: 232;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.find-clothes-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+.find-clothes-info__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  color: var(--black-900);
+}
+.find-clothes__number {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--black-900);
+}
+.find-clothes-left-bottom {
+  display: flex;
+  div {
+    display: flex;
+    flex-direction: column;
+    span:nth-child(2) {
+      font-size: 15px;
+    }
+  }
+  .find-clothes-bottom-primary {
+    padding-right: 32px;
+  }
+  .find-clothes-bottom-secondary {
+    padding: 0px 32px;
+    border-left: 1px solid var(--black-900-opacity10);
+    border-right: 1px solid var(--black-900-opacity10);
+  }
+  .find-clothes-bottom-ternary {
+    padding-left: 32px;
+  }
+}

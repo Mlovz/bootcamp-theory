@@ -1,0 +1,13 @@
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black-900);
+}
+.desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: var(--black-900-opacity60);
+}

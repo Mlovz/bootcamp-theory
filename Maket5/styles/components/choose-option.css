@@ -1,0 +1,100 @@
+.choose-option {
+  display: flex;
+  flex-direction: column;
+}
+.choose-option-top {
+  display: flex;
+  justify-content: space-between;
+  div {
+    width: 100%;
+    border-bottom: 1px solid var(--black-900-opacity10);
+    text-align: center;
+    button {
+      background: transparent;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 110%;
+      color: var(--black-900);
+      padding-bottom: 24px;
+    }
+  }
+  div:nth-child(2) {
+    border-bottom: 2px solid var(--black-900);
+  }
+}
+.choose-option-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > button {
+    padding: 15px 45px;
+  }
+}
+.choose-option-filter-reviews {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px;
+}
+.choose-option-filter-left {
+  span:nth-child(1) {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--black-900);
+  }
+  span:nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    color: var(--black-900-opacity60);
+  }
+}
+.choose-option-filter-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  button:nth-child(1) {
+    border-radius: 62px;
+    padding: 12px;
+    background: var(--white-400);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button:nth-child(2) {
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 62px;
+    gap: 21px;
+    background: var(--white-400);
+  }
+  button:nth-child(3) {
+    padding: 13px 30px;
+  }
+}
+.choose-option-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 36px;
+  .feedback {
+    max-width: 610px;
+    width: 100%;
+    position: relative;
+    span {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 137%;
+      color: var(--black-900-opacity60);
+    }
+  }
+}
+.feedback-dots {
+  position: absolute;
+  background: transparent;
+  width: max-content;
+  top: 28px;
+  right: 32px;
+}

@@ -1,0 +1,14 @@
+.feedback {
+  border: 1px solid var(--black-900-opacity10);
+  border-radius: 20px;
+  padding: 28px 32px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.feedback-name {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

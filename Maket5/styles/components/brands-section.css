@@ -1,0 +1,9 @@
+.brands {
+  background: var(--black-900);
+  padding: 43px 0px;
+}
+.brands-wrap {
+  display: flex;
+  align-items: center;
+  gap: 106px;
+}

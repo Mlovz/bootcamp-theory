@@ -1,0 +1,12 @@
+:root {
+  --black-900: #000;
+  --black-900-opacity40: rgba(0, 0, 0, 0.4);
+  --black-900-opacity60: rgba(0, 0, 0, 0.6);
+  --black-900-opacity10: rgba(0, 0, 0, 0.1);
+  --black-900-opacity25: rgba(0, 0, 0, 0.25);
+  --white-100: #fff;
+  --white-400: #f0f0f0;
+  --white-500: #f2f0f1;
+  --red-400: #ff3333;
+  --red-400-opacity10: rgba(255, 51, 51, 0.1);
+}
