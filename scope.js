@@ -65,3 +65,23 @@
 // console.log(sum);
 
 
+
+
+// У вас есть массив чисел [10, -10, 20, -20]. Найдите разницу между суммой положительных и суммой отрицательных чисел.
+
+function a (){}
+a()
+
+const b = () => {}
+b()
+
+// let count = 0
+
+// const counter = () => {
+//     return count++
+// }
+
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
