@@ -35,7 +35,7 @@
 
 // События click, dblclick
 
-const newItem = document.querySelector(".newItem");
+// const newItem = document.querySelector(".newItem");
 
 // newItem.addEventListener('click', () => {
 //     console.log(1);
@@ -72,3 +72,85 @@ const newItem = document.querySelector(".newItem");
 // newItem.addEventListener('mouseover', (e) => {
 //     console.log(e);
 // })
+
+
+// const a = document.querySelectorAll('.newItem')
+// const a = document.getElementById('newId')
+
+
+// // a.onclick = () => {}
+
+// a.addEventListener('click', (e) => {
+
+// })
+
+// console.log(a);
+
+// const show = document.querySelector('.show')
+// const text = document.querySelector('.text')
+
+// console.log(show, text);
+
+// show.addEventListener('click', () => {
+//     // text.style.display = 'block'
+//     // text.classList.remove('textShow')
+// })
+
+
+// const inc = document.querySelector('.inc')
+// const dec = document.querySelector('.dec')
+// const reset = document.querySelector('.reset')
+// const result = document.querySelector('.count')
+
+// let counter = 0
+
+// function increment() {
+//     counter++
+//     result.textContent = counter
+// }
+
+// inc.addEventListener('click', setInterval(increment, 1000))
+
+// dec.addEventListener('click', () => {
+//     if(counter === 0) return
+//     counter--
+//     result.texconst field = document.querySelector('.field')
+// const add = document.querySelector('.add')
+// const list = document.querySelector('.list')
+
+// add.addEventListener('click', () => {
+//     list.innerHTML += `<div>
+//         ${field.value}
+//         <button class="delete">Delete</button>
+//         <button class="edit">Edit</button>
+//      </div>`
+//     field.value = ''
+// })  tContent = counter
+// })
+// reset.addEventListener('click', () => {
+//     counter = 0
+//     result.textContent = counter
+// })
+
+
+// setInterval(() => {
+//     console.log(1);
+// }, 5000)
+
+// setTimeout(() => {
+//     console.log(1);
+// }, 5000)
+
+
+// const field = document.querySelector('.field')
+// const add = document.querySelector('.add')
+// const list = document.querySelector('.list')
+
+// add.addEventListener('click', () => {
+//     list.innerHTML += `<div>
+//         ${field.value}
+//         <button class="delete">Delete</button>
+//         <button class="edit">Edit</button>
+//      </div>`
+//     field.value = ''
+// })  
