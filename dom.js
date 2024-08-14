@@ -97,6 +97,8 @@
 // })
 
 
+// ---------------------- Счетчик ----------------------
+
 // const inc = document.querySelector('.inc')
 // const dec = document.querySelector('.dec')
 // const reset = document.querySelector('.reset')
@@ -104,29 +106,17 @@
 
 // let counter = 0
 
-// function increment() {
+// inc.addEventListener('click', () => {
 //     counter++
 //     result.textContent = counter
-// }
-
-// inc.addEventListener('click', setInterval(increment, 1000))
+// })
 
 // dec.addEventListener('click', () => {
 //     if(counter === 0) return
 //     counter--
-//     result.texconst field = document.querySelector('.field')
-// const add = document.querySelector('.add')
-// const list = document.querySelector('.list')
-
-// add.addEventListener('click', () => {
-//     list.innerHTML += `<div>
-//         ${field.value}
-//         <button class="delete">Delete</button>
-//         <button class="edit">Edit</button>
-//      </div>`
-//     field.value = ''
-// })  tContent = counter
+//     result.textContent = counter
 // })
+
 // reset.addEventListener('click', () => {
 //     counter = 0
 //     result.textContent = counter
