@@ -24,7 +24,7 @@ if (Number(input.value) === randomNumber) {
 } {
 
 }
-input.value = '';
+input.value = ''; 
 })
 console.log(randomNumber);
 
