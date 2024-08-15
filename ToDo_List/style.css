@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+input,
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo_list {
+  padding: 30px;
+  background: #dfd3c3;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+h1 {
+  color: #c5705d;
+}
+.todo_list__inp {
+  width: 400px;
+  padding: 5px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+.inp_wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.todo_list__btn,
+.delete__btn {
+  position: absolute;
+  right: -10px;
+  background: #ff8343;
+  padding: 7px 15px;
+  border-radius: 100%;
+  font-size: 20px;
+  color: #f8ede3;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list__item {
+  width: 400px;
+  padding: 4px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background: #fff;
+  border-left: 3px solid #a02334;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
