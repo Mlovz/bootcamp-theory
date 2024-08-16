@@ -2,7 +2,7 @@ const input = document.querySelector('input')
 const button = document.querySelector('button')
 const randomNumber = Math.floor(Math.random() * 100)
 const result = document.querySelector('.result')
-let attempts = 3
+let attempts = 10
 
 button.addEventListener('click', () => {
 attempts--;
@@ -17,7 +17,7 @@ if (Number(input.value) === randomNumber) {
 } else {
   result.style.color = 'red'
   result.textContent = 'Вы ввели слишком большое число'
-} if (attempts <= 0) {
+} if (attempts <= -1) {
   result.style.color = 'red'
   result.textContent = 'Попытки закончились'
   button.setAttribute('disabled', '');
