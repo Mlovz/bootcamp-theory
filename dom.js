@@ -10,7 +10,6 @@
 
 // console.log(itemsTags);
 
-
 // const linkOne = document.querySelector('.link')
 // const linkTwo = document.querySelector('.linkTwo')
 
@@ -26,14 +25,12 @@
 // linkOne.classList.toggle('active')
 // linkOne.className = 'tessssst'
 
-
 // -----------------------------------------------------------  Attribute
 
 // const field = document.querySelector('.field')
 
 // field.setAttribute('type', 'text')
 // field.getAttribute('type')
-
 
 // -----------------------------------------------------------  События в js
 // -------------------------------------Click
@@ -82,10 +79,7 @@
 //     openItem.style.display = 'block'
 // })
 
-
-
 // -----------------------------------------------------------  Create Tag
-
 
 // const newDiv = document.createElement('div')
 // const newLink = document.createElement('a')
@@ -95,7 +89,6 @@
 // newLink.className = 'link'
 
 // console.log(newLink);block
-
 
 // newDiv.setAttribute('class', 'test')
 // newDiv.className = 'test'
@@ -111,8 +104,4 @@
 
 // const block = document.querySelector('.block')
 
-
 // document.body.insertBefore(newDiv, block)
-
-
-
