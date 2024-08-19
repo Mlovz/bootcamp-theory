@@ -1,32 +1,21 @@
-const choices = ['камень', 'ножницы', 'бумага']
+const choices = ['камень', 'ножницы', 'бумага'];
+let playerChoice;
+let computerChoice;
 
-const getRandomComputerChoices = () => {
-    const randomIndex = Math.floor(Math.random() * choices.length);
-    return choices[randomIndex];
+function playGame() {
+  computerChoice = choices[Math.floor(Math.random() * choices.length)];
+  playerChoice = document.getElementById('playerChoice').value;
+  document.getElementById('result').innerHTML = '';
+
+  if (playerChoice === computerChoice) {
+    document.getElementById('result').innerHTML = 'Ничья';
+  } else if (
+    (playerChoice === 'камень' && computerChoice === 'ножницы') ||
+    (playerChoice === 'бумага' && computerChoice === 'камень') ||
+    (playerChoice === 'ножницы' && computerChoice === 'бумага')
+  ) {
+    document.getElementById('result').innerHTML = `Победа`;
+  } else {
+    document.getElementById('result').innerHTML = `Поражение`;
+  }
 }
-
-const playGame = () => {
-    const playerChoise = prompt('Введите ваш выбор: камень, ножницы, бумага').toLowerCase()
-    if(!choices.includes(playerChoise)) {
-        alert('Введите камень, ножницы, бумага!')
-        return
-    }
-    const computerChoise = getRandomComputerChoices()
-    if(computerChoise === playerChoise) {
-        return alert('Ничья') 
-    }
-    if(
-        (playerChoise === 'камень' && computerChoise === 'ножницы') || 
-        (playerChoise === 'бумага' && computerChoise === 'камень') || 
-        (playerChoise === 'ножницы' && computerChoise === 'бумага') 
-    ){
-        return alert('Вы выиграли!')
-    }
-    return alert('Мы проиграли')
-}
-
-playGame()
-
-
-
-

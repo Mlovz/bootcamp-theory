@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div id="game-container">
+      <h1>Камень, ножницы, бумага</h1>
+      <label for="playerChoice">Ваш выбор:</label>
+      <input type="text" id="playerChoice" placeholder="Камень, ножницы или бумага">
+      <button onclick="playGame()">Начать игру</button>
+      <p id="result"></p>
+    </div>
+ 
     <script src="./main.js"></script>
   </body>
 </html>
