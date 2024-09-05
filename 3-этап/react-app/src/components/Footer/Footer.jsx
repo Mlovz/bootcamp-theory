@@ -1,12 +1,8 @@
-import styles from './footer.module.css'
+import React from "react";
+import styles from "./footer.module.css";
 
+const Footer = () => {
+  return <footer>&copy; 2023 My App</footer>;
+};
 
-function Footer() {
-    return (
-        <footer className={styles.open}>
-          Footer
-        </footer>
-    )
-}
-
-export default Footer
+export default Footer;
