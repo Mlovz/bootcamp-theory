@@ -1,24 +1,24 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
-  const logger = () => {
-    console.log("logger");
-  };
-
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "50px" }}>
-      <Header logger={logger} username="Test">
-        kjsandjkasdn
-      </Header>
+    <BrowserRouter>
+      <header>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+      </header>
 
       <main>
-        <HomePage />
+        <Routes>
+          <Route path="/" element={<HomePage/>} />
+          <Route path="/about" element={<AboutPage/>}/>
+        </Routes>
       </main>
 
-      <Footer />
-    </div>
+      <footer></footer>
+    </BrowserRouter>
   );
 }
 
