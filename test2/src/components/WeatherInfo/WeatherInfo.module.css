@@ -1,0 +1,13 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #dfbf6a;
+}
+.city, .temp, .data{
+    font-weight: 900;
+}

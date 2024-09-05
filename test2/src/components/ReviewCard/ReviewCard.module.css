@@ -1,0 +1,19 @@
+.cont {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #dfbf6a;
+}
+.ratingWrap {
+    display: flex;
+        gap: 5px;
+}
+.ratingWrap img {
+    /* gap: 10px;s */
+    width: 40px;
+}
