@@ -1,11 +1,14 @@
 import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
+import BussinesCard from "./components/BussinesCard/BussinesCard";
 
 function App() {
   return (
     <BrowserRouter>
-      <header>
+      <BussinesCard name='Suleim' jobTitle='Frontend Developer' company='Amazon' />
+
+      {/* <header>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
       </header>
@@ -17,7 +20,7 @@ function App() {
         </Routes>
       </main>
 
-      <footer></footer>
+      <footer></footer> */}
     </BrowserRouter>
   );
 }
