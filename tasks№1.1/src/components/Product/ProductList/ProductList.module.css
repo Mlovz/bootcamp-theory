@@ -1,0 +1,9 @@
+.mini_card {
+    display: flex;
+    gap: 20px;
+    transform: translateY(-30px);
+    div {
+        background: #e35353;
+        border-radius: 50px;
+    }
+}
