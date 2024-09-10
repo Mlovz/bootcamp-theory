@@ -31,3 +31,9 @@
   background-color: #d1d1d1;
   cursor: not-allowed;
 }
+
+
+.danger-app{
+  background: red;
+  color: #fff;
+}

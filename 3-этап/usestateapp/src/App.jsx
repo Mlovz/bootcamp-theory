@@ -1,6 +1,5 @@
+import Button from "./componets/Button/Button";
 import Product from "./componets/Product/Product";
-import {Button} from 'antd'
-
 
 function App() {
   const products = [
@@ -26,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-   {/* `   {users.length === 0 ? (
+      {/* `   {users.length === 0 ? (
         <h1>Нет пользователей</h1>
       ) : (
         users.map((user, index) => (
@@ -37,7 +36,17 @@ function App() {
         ))
       )}` */}
 
-      <Product products={products}/>
+      {/* <Product products={products}/> */}
+
+      <Button type="submit" disabled={false} classColor='solid'>
+        Войти
+      </Button>
+      <Button type="button" disabled={false} classColor='outline'>
+        Регистрация
+      </Button>
+      <Button type="button" disabled={false} classColor='primary'>
+        Add post
+      </Button>
     </div>
   );
 }

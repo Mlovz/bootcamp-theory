@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Avatar from "./components/Avatar/Avatar";
 import Badge from "./components/Badge/Badge";
 import Button from "./components/Button/Button";
@@ -10,36 +11,35 @@ import Select from "./components/Select/Select";
 import Slider from "./components/Slider/Slider";
 import Switch from "./components/Switch/Switch";
 import Textarea from "./components/Textarea/Textarea";
+import LoginForm from "./LoginForm";
+import RegisterForm from "./RegisterForm";
 
 function App() {
+  // const [название переменной, setНазвание переменной] = useState(false)
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const onOpen = () => {
+    setIsOpen(true);
+  };
+
+  const onClose = () => {
+    setIsOpen(false);
+  };
 
   return (
     <div className="App">
-      <Button variant="primary" disabled>Войти</Button>
-      <Input placeholder='Add text...' />
-      <Checkbox label='Test'/>
+      <button onClick={onOpen}>Войти</button>
 
-      <Textarea/>
-      <RadioButton/>
-
-      <Select options={[
-        {value: 'Option 1', label: 'Option 1'},
-        {value: 'Option 2', label: 'Option 2'},
-        {value: 'Option 3', label: 'Option 3'},
-        {value: 'Option 4', label: 'Option 4'},
-        {value: 'Option 5', label: 'Option 5'},
-      ]}/>
-
-      <Switch/>
-
-      <Slider/>
-      <ProgressBar progress={20}/>
-
-      <Badge text='Test' variant="success"/>
-      
-      <Avatar  src='https://www.webiconio.com/_upload/255/image_255.svg'/>
-      
-      <Chip label='warning'/>
+      {isOpen && (
+        <div className="overlay" onClick={onClose}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <RegisterForm />
+            {/* <LoginForm /> */}
+            <button className="close" onClick={onClose}>&times;</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
