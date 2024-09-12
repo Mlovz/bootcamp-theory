@@ -79,8 +79,6 @@ const Todo = () => {
   
   return (
     <div className={styles.todo}>
-
-   
       <form action="" className={styles.form}>
         <input
           type="text"
