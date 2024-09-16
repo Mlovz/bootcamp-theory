@@ -1,30 +1,37 @@
+import axios from "axios";
 import { useState } from "react";
-import Todo from "./components/Todo/Todo";
-import UserCard from "./components/UserCard/UserCard";
 
 function App() {
-  const [users, setUsers] = useState([])
+  const [users, setUsers] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
-  const getUsers = () => {
-    const res = fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(json => setUsers(json))
-  }
+  const getUsers = async () => {
+    setIsLoading(true);
+    const response = await axios.get("http://localhost:5500/users", {
+      withCredentials: true,
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+    });
+    setUsers(response.data.users);
+    setIsLoading(false);
+  };
 
-  
   return (
     <div>
-      {/* <Todo/> */}
-      <button onClick={getUsers}>Получить пользователей</button>
-
-      {
-        users.length === 0 
-        ? <h1>Пока нет пользователей</h1> 
-        : users.map((user) => 
-          <UserCard user={user}/>
-        )
-      }
-
+      <button onClick={getUsers}> Получить пользователей</button>
+      {isLoading && <h1>Loading....</h1>}
+      {users.length > 0 ? (
+        users.map((user) => (
+          <div>
+            <h1>{user.username}</h1>
+            <span>{user.age}</span>
+          </div>
+        ))
+      ) : (
+        <h1>пользователей еще нет</h1>
+      )}
     </div>
   );
 }
