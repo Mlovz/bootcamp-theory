@@ -1,0 +1,19 @@
+.card {
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background: #d8b363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+}
+.green {
+    background: green;
+}
+.blue {
+    background: blue;
+}

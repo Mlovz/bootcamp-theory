@@ -1,0 +1,24 @@
+.avatar {
+    border: 5px solid #000;
+    box-shadow: 10px 5px 5px red;
+}
+.large {
+    width: 200px;
+    height: 200px;
+}
+.small {
+    width: 50px;
+    height: 50px;
+}
+.medium {
+    width: 100px;
+    height: 100px;
+}
+
+.s{
+    border-radius: 100%;
+}
+
+.m{
+    border-radius: 100%;
+}
