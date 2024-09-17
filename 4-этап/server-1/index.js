@@ -1,5 +1,10 @@
 const express = require('express');
 const cors = require('cors');
+const dotenv = require('dotenv');
+dotenv.config();
+const mongoose = require('mongoose');
+
+const authRoutes = require('./routes/authRoutes');
 
 const app = express();
 
@@ -10,35 +15,11 @@ app.use(cors({
 
 app.use(express.json())
 
-app.get('/users', (req, res) => {
-    const users = [
-        {
-            username: 'Test',
-            age: 21     
-        },
-        {
-            username: 'Test1',
-            age: 22
-        },
-        {
-            username: 'Test2',
-            age: 23
-        },
-        {
-            username: 'Test3',
-            age: 24
-        },
+app.use('/api', authRoutes)
 
-    ]
-    return res.json({
-        users
-    })
+mongoose.connect(process.env.MONGO_URL, {}).then(() => {
+    console.log('Успешное подключение к базе данных!');
 })
-
-app.get('/user/1', (res, req) => {
-    console.log('получили одного пользователя');
-})
-
 
 app.listen(5500, () => {
     console.log('Сервер запущен на порте 5500');

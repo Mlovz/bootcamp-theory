@@ -7,7 +7,9 @@ function App() {
 
   const getUsers = async () => {
     setIsLoading(true);
-    const response = await axios.get("http://localhost:5500/users", {
+    const user  = {username: 'aaa', age: 200}
+    
+    const response = await axios.get("http://localhost:5500/users",user,{
       withCredentials: true,
       headers: {
         Accept: "application/json",
