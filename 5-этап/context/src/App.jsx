@@ -5,9 +5,7 @@ import { TaskProvider } from "./TaskContext";
 function App() {
   return (
     <TaskProvider>
-      <AddTask />
-
-      <TaskList />
+      {/* тут ваши компненты */}
     </TaskProvider>
   );
 }
