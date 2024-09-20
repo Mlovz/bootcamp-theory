@@ -1,0 +1,42 @@
+.container {
+    margin: 20px;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.taskItemComplete {
+    opacity: 0.4;
+}
+
+.taskText {
+    font-size: 18px;
+}
+
+.taskButtons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskButtons button:hover {
+    background-color: #0056b3;
+}
+
+.noTasks {
+    font-size: 24px;
+    color: #888;
+}
