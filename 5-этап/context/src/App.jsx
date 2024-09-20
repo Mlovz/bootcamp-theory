@@ -1,19 +1,14 @@
-import { useState } from "react";
-import Header from "./Header";
-import LoginPage from "./LoginPage";
-import { AuthProvider } from "./GlobalContext";
-import Footer from './Footer'
+import AddTask from "./components/AddTask";
+import TaskList from "./components/TaskList";
+import { TaskProvider } from "./TaskContext";
 
 function App() {
   return (
-    <>
-      <AuthProvider>
-        <Header a={10}></Header>
+    <TaskProvider>
+      <AddTask />
 
-        <LoginPage />
-      </AuthProvider>
-      <Footer/>
-    </>
+      <TaskList />
+    </TaskProvider>
   );
 }
 
