@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.header-logo{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.header-login{
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+}

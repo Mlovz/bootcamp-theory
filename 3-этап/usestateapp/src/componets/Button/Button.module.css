@@ -1,0 +1,28 @@
+.button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.button:disabled{
+    border: 1px solid red;
+    opacity: .4;
+}
+
+.solid{
+    background: #000;
+    color: #fff;
+}
+
+    
+.outline{
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+}
+
+.primary{
+    background: #07a3ca;
+    color: #fff;
+}
