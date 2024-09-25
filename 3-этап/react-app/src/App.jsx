@@ -1,40 +1,27 @@
-import axios from "axios";
-import { useState } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import UsersList from "./components/UsersList/UsersList";
 
 function App() {
-  const [users, setUsers] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-
-  const getUsers = async () => {
-    setIsLoading(true);
-    const user  = {username: 'aaa', age: 200}
-    
-    const response = await axios.get("http://localhost:5500/users",user,{
-      withCredentials: true,
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-    });
-    setUsers(response.data.users);
-    setIsLoading(false);
-  };
+  const users = [
+    { name: "John", lastname: "Doe" },
+    { name: "Jane", lastname: "Doe" },
+    { name: "Bob", lastname: "Smith" },
+    { name: "Alice", lastname: "Johnson" },
+    { name: "Mark", lastname: "Williams" },
+  ];
 
   return (
-    <div>
-      <button onClick={getUsers}> Получить пользователей</button>
-      {isLoading && <h1>Loading....</h1>}
-      {users.length > 0 ? (
-        users.map((user) => (
-          <div>
-            <h1>{user.username}</h1>
-            <span>{user.age}</span>
-          </div>
-        ))
-      ) : (
-        <h1>пользователей еще нет</h1>
-      )}
-    </div>
+    <>
+      {/* <Header name='Test' lastname='Testov' /> */}
+      {/* <main>
+        Main
+      </main> */}
+
+      <UsersList users={users} />
+
+      {/* <Footer isOpen={true}/> */}
+    </>
   );
 }
 

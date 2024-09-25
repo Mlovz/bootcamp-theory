@@ -1,11 +1,12 @@
-const UserCard = ({user}) => {
+import React from "react";
+
+const UserCard = (props) => {
+  const { name, lastname } = props;
+
   return (
-    <div className="card" >
-      <h1>{user.name}</h1>
-      <p>{user.username}</p>
-      <p>{user.phone}</p>
-      <a>{user.website}</a>
-      <p>{user.address.city}</p>
+    <div className="user-card">
+      <h1>{name}</h1>
+      <h2>{lastname}</h2>
     </div>
   );
 };
