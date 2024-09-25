@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+    list-style-type: none;
+}
+button, input {
+    outline: none;
+    border: none;
+    
+    font-size: 14px;
+}
+
+button {
+    transition: 0.1s;
+    color: #000;
+}
+.add_btn {
+    padding: 7px;
+    border-radius: 15px;
+    background: #6EC207;
+}
+.delete_btn {
+    background: #C7253E;
+}
+.finished_btn {
+    background: #6EC207;
+}
+button:active {
+    transform: scale(0.9);
+
+}
+button:disabled {
+    opacity: 0.6;
+}
+.card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    background: #3C3D37;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    input {
+        border-radius: 10px;
+        padding-left: 10px; 
+        width: 100%;
+    }
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.list_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    li {
+        color: beige;
+    }
+    
+}
+.btn_cont {
+    display: flex;
+    gap: 20px;
+    button {
+        padding: 7px;
+        border-radius: 15px;
+    }
+}
+.finished {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.btn_wrap {
+    display: flex;
+    gap: 10px;
+    button {
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .active_Btn {
+        background: #696565;
+        transform: scale(0.9);
+        color: #fff;
+        border: #000 1px solid;
+    }
+}
+.colors_cont {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.color_wrap {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+.activeColorCss {
+    border: 2px solid #000;
+}
+/* #FFEB00
+#4379F2
+#6EC207
+#7CF5FF
+*/
