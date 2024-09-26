@@ -5,13 +5,14 @@ const UsersList = (props) => {
   const { users } = props;
 
   return (
-    <div>
+    <div className="block" >
       {users.map((user, index) => {
         return (
           <UserCard 
             key={index} 
             name={user.name} 
             lastname={user.lastname} 
+            click={useCard}
           />
         );
       })}

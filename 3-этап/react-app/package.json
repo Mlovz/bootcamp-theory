@@ -38,6 +38,9 @@
     ]
   },
   "devDependencies": {
-    "clsx": "^2.1.1"
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
   }
 }
