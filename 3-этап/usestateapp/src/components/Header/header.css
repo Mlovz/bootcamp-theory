@@ -1,0 +1,42 @@
+.header{
+    background: #fff;
+    box-shadow: 0 0 100px 0 rgba(0,0,0, .5);
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.h-logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: #D23669;
+}
+
+.h-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    padding: 8px 28px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.btn-login{
+    background: #D23669;
+    color: #fff;
+}
+
+.btn-register{
+    background: #fff;
+    color: #D23669;
+    border: 1px solid #D23669;
+}

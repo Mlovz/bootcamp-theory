@@ -1,53 +1,32 @@
-import Button from "./componets/Button/Button";
-import Product from "./componets/Product/Product";
+import { Provider } from "react-redux";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import HomePage from "./pages/HomePage/HomePage";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import ProfilePage from "./pages/ProfilePage/ProfilePage";
+import RegisterPage from "./pages/RegisterPage/RegisterPage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { store } from "./redux/store";
 
 function App() {
-  const products = [
-    {
-      id: 1,
-      name: "Product 1",
-      price: 100,
-      description: "Product 1 description",
-    },
-    {
-      id: 2,
-      name: "Product 1",
-      price: 100,
-      description: "Product 1 description",
-    },
-    {
-      id: 3,
-      name: "Product 1",
-      price: 100,
-      description: "Product 1 description",
-    },
-  ];
-
   return (
-    <div className="App">
-      {/* `   {users.length === 0 ? (
-        <h1>Нет пользователей</h1>
-      ) : (
-        users.map((user, index) => (
-          <div key={user}>
-            <h1>{user.name}</h1>
-            <span>{user.age}</span>
-          </div>  
-        ))
-      )}` */}
+    <Provider store={store}>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <div className="container">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/profile/:postTitle" element={<ProfilePage />} />
+            </Routes>
+          </div>
 
-      {/* <Product products={products}/> */}
-
-      <Button type="submit" disabled={false} classColor='solid'>
-        Войти
-      </Button>
-      <Button type="button" disabled={false} classColor='outline'>
-        Регистрация
-      </Button>
-      <Button type="button" disabled={false} classColor='primary'>
-        Add post
-      </Button>
-    </div>
+          <Footer />
+        </div>
+      </BrowserRouter>
+    </Provider>
   );
 }
 

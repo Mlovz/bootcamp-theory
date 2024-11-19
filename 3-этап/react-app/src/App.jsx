@@ -1,26 +1,18 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import UsersList from "./components/UsersList/UsersList";
+import MovieItem from "./components/MovieItem/MovieItem";
+import MovieList from "./components/MovieList/MovieList";
 
 function App() {
-  const users = [
-    { name: "John", lastname: "Doe" },
-    { name: "Jane", lastname: "Doe" },
-    { name: "Bob", lastname: "Smith" },
-    { name: "Alice", lastname: "Johnson" },
-    { name: "Mark", lastname: "Williams" },
+  const movies = [
+    { title: "Inception", year: 2010, href: '/' },
+    { title: "The Matrix", year: 1999 },
+    { title: "Interstellar", year: 2014, href: '/about' },
+    { title: "The Dark Knight", year: 2008 },
+    { title: "Fight Club", year: 1999 },
   ];
 
   return (
     <>
-      {/* <Header name='Test' lastname='Testov' /> */}
-      {/* <main>
-        Main
-      </main> */}
-
-      <UsersList users={users} />
-
-      {/* <Footer isOpen={true}/> */}
+      <MovieList movies={movies} />
     </>
   );
 }

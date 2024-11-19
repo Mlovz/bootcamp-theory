@@ -1,0 +1,16 @@
+.post-item{
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    padding: 20px;
+}
+.post-item h2 {
+    color: #D23669;
+    font-size: 24px;
+    font-weight: bold;
+}
+.post-item span{}
+.post-item p{}
