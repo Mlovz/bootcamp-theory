@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { useDispatch } from 'react-redux'
 import { loginByEmail } from './store/authSlice'
+import Button from './Button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <div>
+        <Button text='Click'/>
         <button onClick={onLogin}>Войти</button>
         
         <a href="https://vitejs.dev" target="_blank">
