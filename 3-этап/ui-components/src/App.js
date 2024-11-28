@@ -1,45 +1,33 @@
-import { useState } from "react";
-import Avatar from "./components/Avatar/Avatar";
-import Badge from "./components/Badge/Badge";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Button from "./components/Button/Button";
-import Checkbox from "./components/Checkbox/Checkbox";
-import Chip from "./components/Chip/Chip";
-import Input from "./components/Input/Input";
-import ProgressBar from "./components/ProgressBar/ProgressBar";
-import RadioButton from "./components/RadioButton/RadioButton";
-import Select from "./components/Select/Select";
-import Slider from "./components/Slider/Slider";
-import Switch from "./components/Switch/Switch";
-import Textarea from "./components/Textarea/Textarea";
-import LoginForm from "./LoginForm";
-import RegisterForm from "./RegisterForm";
 
-function App() {
-  // const [название переменной, setНазвание переменной] = useState(false)
 
-  const [isOpen, setIsOpen] = useState(false);
 
-  const onOpen = () => {
-    setIsOpen(true);
-  };
+function App({data}) {
+  const [count, setCount] = useState(0)
+  const buttonRef = useRef()
 
-  const onClose = () => {
-    setIsOpen(false);
-  };
+
+  const selectedUsers = useMemo(() => {
+    return data.filter((user) => user.age > 10)
+  },[data])
+
+  
+  console.log(selectedUsers);
+  
+
+  const onCount = () => {
+    setCount(count + 1)
+  }
+
+  const newOnClick = useCallback(() => {
+  },[])
 
   return (
     <div className="App">
-      <button onClick={onOpen}>Войти</button>
-
-      {isOpen && (
-        <div className="overlay" onClick={onClose}>
-          <div className="modal" onClick={(e) => e.stopPropagation()}>
-            <RegisterForm />
-            {/* <LoginForm /> */}
-            <button className="close" onClick={onClose}>&times;</button>
-          </div>
-        </div>
-      )}
+      <button  onClick={onCount}>Click</button>
+      
+      <Button ref={buttonRef} onClick={newOnClick}>adsads</Button>
     </div>
   );
 }
