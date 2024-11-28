@@ -78,9 +78,9 @@
 <!-- BLOG-POST-LIST:END -->
 
 ---
-
-[![Resume](https://img.shields.io/badge/-Резюме-090909?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=red)](ссылка-на-ваше-резюме)
-
+## Резюме
+---
+[![Resume](https://img.shields.io/badge/-Резюме-090909?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=red)](https://gifer.com/ru/gifs/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82#google_vignette)
 
 ---
 
