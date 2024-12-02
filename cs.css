@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+}
+/* 
+h1 {
+    color: blue;
+    font-family: Arial;
+}
+
+h2 {
+    color: rgb(0, 0, 145);
+    font-family: Arial;
+} */
+
+p {
+    font-size: 20px;
+    display: none;
+    width: 40px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.a {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.a:hover .hi {
+    display: flex;
+}
