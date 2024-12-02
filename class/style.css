@@ -1,0 +1,51 @@
+
+
+.btn{
+    transition: transform .2s;
+}
+
+.btn:active{
+    background-color:rgb(15, 55, 203);
+    transform: scale(1.2);
+
+}
+
+a{
+    color: #0075B2;
+    text-decoration: none;
+}
+a:active{
+    color: brown;
+}
+
+.one{
+    background-color: blueviolet;
+    border: 2px solid red;
+    outline-style: none;
+}
+
+.one:focus{
+    border-color: rgb(34, 0, 255);
+    background-color: #ffffff;
+    color: rgb(85, 42, 165);
+
+}
+
+/* .checkbox{
+    left: -999em;
+background: red;
+} */
+/* .checkbox input:checked{
+    background-color: #FF0;
+} */
+
+.checked-example input:checked {
+    background-color: yellow;
+}
+
+
+.end:disabled{
+    background-color:red;
+    color: #b4e211;
+    border: 1px solid #0844c6;
+    }
