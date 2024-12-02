@@ -1,0 +1,30 @@
+.trusted {
+  padding: 60px 0px;
+  height: 284px;
+  display: flex;
+  justify-content: center;
+}
+.trusted-item {
+  position: relative;
+  height: 164px;
+  display: flex;
+  gap: 55px;
+  align-items: flex-end;
+  padding-bottom: 28px;
+  button {
+    background: transparent;
+  }
+  span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--blue-700-opacity60);
+  }
+}
