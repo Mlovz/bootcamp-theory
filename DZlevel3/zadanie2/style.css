@@ -1,0 +1,32 @@
+li{
+    list-style-type: none;
+}
+
+.header1{
+    
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 50px;
+}
+.usl{
+    position: relative;
+}
+
+.spisok{
+   position: absolute;
+    /* left: 1px; */
+
+    display: flex;
+    display: none;  
+}
+
+
+.usl:hover .spisok{
+
+       margin-top: 20px;
+       display: block;
+       
+
+}
