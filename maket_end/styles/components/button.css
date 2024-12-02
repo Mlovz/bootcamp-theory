@@ -1,0 +1,27 @@
+
+
+.btn{
+border-radius: 62px;
+padding: 16px 54px;
+width: 210px;
+height: 52px;
+background: var(--black);
+cursor: pointer;
+}
+
+.btn-primary{
+border-radius: 62px;
+padding: 12px 16px;
+width: 349px;
+height: 46px;
+background: var(--white);
+color: var(--black);
+cursor: pointer;
+}
+
+.btn-transparent{
+  border-bottom: 1px solid #4262ff;
+  width: 104px;
+  height: 23px;
+}
+

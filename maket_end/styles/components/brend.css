@@ -1,0 +1,15 @@
+
+
+
+.brend{
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  background: var(--black);
+}
+
+.list-brend{
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 0px 44px 0px;
+}
