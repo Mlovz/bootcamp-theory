@@ -1,0 +1,124 @@
+body {
+  font-family: "Times New Roman", serif;
+  background-color: lightblue;
+  color: darkgreen;
+}
+
+.header {
+  text-align: center;
+  color: blue;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 5px grey;
+}
+
+.nav {
+  background-color: black;
+  padding: 10px 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.article {
+  width: 45%;
+  box-shadow: 2px 2px 5px grey;
+  padding: 15px;
+}
+
+.article-title {
+  color: darkblue;
+}
+
+.article-content {
+  color: grey;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.sidebar {
+  width: 25%;
+  box-shadow: 2px 2px 5px grey;
+  padding: 15px;
+}
+
+.sidebar-title {
+  color: darkblue;
+}
+
+.sidebar-content {
+  color: grey;
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-section {
+  margin: 20px;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section {
+  margin: 20px;
+}
+
+.table-section {
+  margin: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table,
+.table-header,
+.table-cell {
+  border: 1px solid black;
+}
+
+.table-header {
+  background-color: grey;
+}
+
+.table-cell {
+  background-color: lightgrey;
+}
