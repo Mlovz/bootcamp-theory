@@ -1,0 +1,10 @@
+p {
+    font-size: 40px;
+    font-weight: 900;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+    ;
+}
