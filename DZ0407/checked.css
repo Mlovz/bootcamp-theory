@@ -1,0 +1,13 @@
+
+
+.cb1:checked+label{
+    background: red;}
+
+.rad1:checked+label{
+    font-style: italic;
+}    
+.cb2:checked+label{
+    color: red;
+}
+
+

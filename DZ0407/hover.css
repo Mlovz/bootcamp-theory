@@ -1,0 +1,11 @@
+.button1:hover{background-color: aqua; }
+    .button2:hover{color: red;}
+    .button3:hover{transform: scale(1.2);}
+    .button4:hover{opacity: 0.5;}
+    .button5:hover{box-shadow: 10px 10px 10px rgba(0,0,0, 0.5);}
+    .button6:hover{border-color: red;}
+    .button7:hover{transform: rotate(45deg);}
+    .button8:hover{border-radius: 50px;}
+    .button9:hover{transform: translateX(50px);}
+    .button10:hover::before{content: attr(hover-text);}
+
