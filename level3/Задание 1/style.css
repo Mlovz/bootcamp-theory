@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.block1 {
+    background: #d60a0a;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.block2 {
+    background: #0be721;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block3 {
+    background: #0800ff;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
