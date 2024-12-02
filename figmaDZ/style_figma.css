@@ -1,0 +1,174 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul,ol{
+  
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+    /* display: inline-flex;
+    gap: 20px; */
+    
+}
+
+header{
+    
+}
+
+.container{
+    margin-inline: auto;
+    width: min(100%,1040px);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+    width: 323px;
+    height: 40px;
+}
+
+.menu__nav span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#5968F1;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.bts{
+    width: 75px;
+    height: 27px;
+    border-radius: 5px;
+    background-color:#5968F1;
+}
+
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 55px;
+
+}
+.section__title{
+    font-family: Nunito;
+font-size: 20px;
+font-weight: 400;
+}
+.wrapper{
+display: flex;
+flex-direction: column;
+gap: 15px;
+margin-top: 17px;
+}
+
+.section__top{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section_user{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DBDBDB;
+    gap: 21px;
+    padding: 10px 9px;
+    background:#F4F4F4;
+    border-radius: 10px;
+
+}
+.section_1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.img_stn_1{
+    width: 60px;
+    height: 60px;
+
+}
+
+.section_1_1{
+    display: flex;
+    flex-direction: column;
+    width: 109px;
+    gap: 10px;
+}
+
+h1{
+font-size: 14px;
+font-weight: 400;
+line-height: 19.1px;
+text-align: left;
+
+}
+
+.section_1__1 span{
+display:inline-block;
+margin-left: auto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.37px;
+
+}
+
+p{
+font-size: 12px;
+font-weight: 400;
+line-height: 16.37px;
+
+}
+
+.section_2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.btn{
+width: 66px;
+height: 16px;
+text-align: center;
+font-family: Nunito;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.37px;
+color: white;
+background-color: #5CA5FA;
+border-radius: 10px;
+opacity: 0px;
+border: none;
+}
+
+.section_2 span{
+width: 66px;
+height: 16px;
+border-radius: 10px;
+background-color:  #04DD00;
+text-align: center;
+color: white;
+opacity: 0px;
+}
