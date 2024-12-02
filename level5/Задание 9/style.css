@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: #c01111 solid 2px;
+}
+
+.container * {
+    border: 1px dashed;
+    background-color: rgba(18, 37, 210, 0.5); 
+    text-align: center;
+}
+
+.A { grid-area: f; }
+.B { grid-area: i; }
+.C { grid-area: b; }
+.D { grid-area: o; }
+.E { grid-area: n; }
+
+.container {
+    display: grid;
+    grid-template-areas: "f f f f f i i i"
+                         "f f f f f o b b"
+                         "f f f f f n b b";
+}
