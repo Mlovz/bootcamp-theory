@@ -1,0 +1,14 @@
+.Form_login {
+  width: 400px;
+  background: #fff;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.comments {
+  padding-bottom: 25px;
+}
+.input {
+  width: 100%;
+}
